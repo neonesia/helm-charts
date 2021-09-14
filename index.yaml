@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  scrape-save-service:
+  - apiVersion: v2
+    appVersion: 0.3.37
+    created: "2021-09-14T07:00:04.680693168Z"
+    description: A Helm chart for Kubernetes
+    digest: 3dec42bbb7d726e041a501bd761e69fdfd16de361eff33a32e327e6523c6b080
+    name: scrape-save-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/scrape-save-service-0.1.0/scrape-save-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-09-14T07:00:04.338105923Z"
