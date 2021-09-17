@@ -1,0 +1,117 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: {{ .Release.Name }}-selector-configmap
+  namespace: {{ .Release.Namespace }}
+  creationTimestamp: 2021-09-16T00:00:00Z
+data:
+  SEL_BCA: |
+    {
+      "home_url":"https://www.klikbca.com/smelogin.html",
+      "vpn_id":"#username.form-control",
+      "vpn_pw":"#password_input.form-control",
+      "vpn_click":"#submit.btn",
+      "vpn_bridge":"body > div.main > div > div > div.col-12.col-sm-12.col-md-12.col-lg-8.col-xl-6 > div.row.mt-6vh.mb-3 > div:nth-child(1) > a",
+      "corp_id":"input[name='corp_cd']",
+      "web_id":"input[name='user_cd']",
+      "web_pw":"input[name='pswd']",
+      "login_click":"img[name='Image13']",
+      "top_frame":"frame[name='topFrame']",
+      "menu_frame":"frame[name='leftFrame']",
+      "main_frame":"frame[name='workspace']",
+      "logout_click":"img[name='logout']",
+      "vpn_logout_click":"#csco > area:nth-child(4)",
+      "left_menu":"#divFold1 > a",
+      "txn_menu":"#divFoldSub1_1 > a",
+      "query_run":"function() {onLinkClick();}",
+      "query_click":"body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > a:nth-child(11)",
+      "acct":"#acct_display",
+      "from_day":"#from_day",
+      "from_month":"#from_mth",
+      "from_year":"#from_year",
+      "to_day":"#to_day",
+      "to_month":"#to_mth",
+      "to_year":"#to_year",
+      "download_add":"#Add",
+      "download_click":"#Download"
+    }
+  SEL_BRI: |
+    {
+      "home_url":"https://ibank.bri.co.id/cms/Logon.aspx",
+      "corp_id":"#ClientID",
+      "web_id":"#UserID",
+      "web_pw":"#Password",
+      "login_click":"#btnLogin",
+      "cleanall_click":"#btnCleanAll",
+      "top_frame":"frame[name='head']",
+      "menu_frame":"frame[name='menu']",
+      "main_frame":"frame[name='channel']",
+      "logout_click":"a#btnLogout",
+      "top_menu":"#tableheader > tbody > tr > td.right-main-header > div.menu-header > div:nth-child(1) > div:nth-child(3) > a",
+      "left_menu":"#mainLeftMenu > div:nth-child(2) > table > tbody > tr:nth-child(1) > td",
+      "txn_menu":"#sm_249 > a",
+      "acct":"#ctl00_TransactionForm_txtNoRek",
+      "from_date":"#ctl00_TransactionForm_txtstartdate",
+      "to_date":"#ctl00_TransactionForm_txtfindate",
+      "query_click":"#ctl00_TransactionForm_btnSubmit",
+      "csv_select":"#ctl00_TransactionForm_ReportViewer1_ctl01_ctl05_ctl00",
+      "download_click":"#ctl00_TransactionForm_ReportViewer1_ctl01_ctl05_ctl01",
+      "report_frame":"#ReportFramectl00_TransactionForm_ReportViewer1",
+      "report":"#oReportCell",
+      "popup":"a#TB_closeWindowButton"
+    }
+  SEL_MANDIRI: |
+    {
+      "home_url":"https://mcm.bankmandiri.co.id/corp/common/login.do?action=logout",
+      "corp_id":"input.corpId",
+      "web_id":"input.userName",
+      "web_pw":"input.passwordEncryption",
+      "login_click":"#button",
+      "logout_click":"body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > table > tbody > tr > td.top_nav_right > a",
+      "top_frame":"frame[name='topFrame']",
+      "main_frame":"frame[name='mainFrame']",
+      "left_menu":"#masterdiv > div:nth-child(4) > a",
+      "txn_menu":"#subs11",
+      "acct":"input[name='accountDisplay']",
+      "from_date":"input[name='fromDateDisplay']",
+      "to_date":"input[name='toDateDisplay']",
+      "csv_select":"body > form > table.clsForm > tbody > tr:nth-child(10) > td:nth-child(2) > select",
+      "download_click":"input[name='download1']"
+    }
+  SEL_MANDIRI2: |
+    {
+      "home_url":"https://mcm.bankmandiri.co.id/corp/common/login.do?action=logout",
+      "corp_id":"input.corpId",
+      "web_id":"input.userName",
+      "web_pw":"input.passwordEncryption",
+      "login_click":"#button",
+      "logout_click":"body > table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > table > tbody > tr > td.top_nav_right > a",
+      "top_frame":"frame[name='topFrame']",
+      "main_frame":"frame[name='mainFrame']",
+      "left_menu":"#masterdiv > div:nth-child(4) > a",
+      "txn_menu":"#subs11",
+      "acct":"input[name='accountDisplay']",
+      "from_date":"input[name='fromDateDisplay']",
+      "to_date":"input[name='toDateDisplay']",
+      "csv_select":"body > form > table.clsForm > tbody > tr:nth-child(10) > td:nth-child(2) > select",
+      "download_click":"input[name='download1']"
+    }
+  SEL_BNI: |
+    {
+      "home_url":"https://bnidirect.bni.co.id/",
+      "login_url":"https://bnidirect.bni.co.id/corp/common/login.do?action=callMainPopUpBNI",
+      "corp_id":"input[name='corpId']",
+      "web_id":"input[name='userName']",
+      "web_pw":"input[name='passwordEncryption']",
+      "login_click":"input[name='submit1']",
+      "logout_click":"body > table > tbody > tr > td > div.menu > a",
+      "main_frame":"#frset > frameset > frame:nth-child(2)",
+      "left_menu":"#masterdiv > div:nth-child(5)",
+      "txn_menu":"#subs10",
+      "acct":"input[name='accountDisplay']",
+      "from_date":"input[name='transferDateDisplay1']",
+      "to_date":"input[name='transferDateDisplay2']",
+      "query_click":"input[name='show1']",
+      "csv_select":"body > form > table.clsForm > tbody > tr:nth-child(10) > td:nth-child(2) > select",
+      "download_click":"input[name='download1']"
+    }

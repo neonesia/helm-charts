@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  namespace: {{ .Release.Namespace }}
+  creationTimestamp: 2021-09-16T00:00:00Z
+data:
+  NATS_URL: {{ .Values.config.urlNATS }}
+  DB_RUL: {{ .Values.config.urlDB }}
+  GRPC_ADDR: {{ .Values.config.addrGRPC }}
+  IS_TLS: {{ .Values.config.isTLS }}
+  NODE_GROUP: {{ .Values.config.groupNode }}
+  TASK_QUEUE_SIZE: {{ .Values.config.queueSizeTask }}
+  MOBILE_QUEUE_SIZE: {{ .Values.config.queueSizeMobile }}

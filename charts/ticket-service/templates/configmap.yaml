@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  namespace: {{ .Release.Namespace }}
+  creationTimestamp: 2021-09-16T00:00:00Z
+data:
+  IRSDB_URL: {{ .Values.config.urlIRSDB }}
+  DB_URL: {{ .Values.config.urlDB }}
+  TIME_DIFF: {{ .Values.config.diffTime }}
+  LOG_LEVEL: {{ .Values.config.logLevel }}

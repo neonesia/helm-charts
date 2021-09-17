@@ -1,0 +1,8 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/backend-k8s-287402/chrome-neonesia
+  pullPolicy: IfNotPresent
+  tag: "v0.1.10"

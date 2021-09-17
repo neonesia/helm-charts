@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  namespace: {{ .Release.Namespace }}
+  creationTimestamp: 2021-09-16T00:00:00Z
+data:
+  SAVE_PATH: {{ .Values.config.pathSave }}
+  UPLOAD_URL: {{ .Values.config.urlUpload }}

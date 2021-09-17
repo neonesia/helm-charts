@@ -1,0 +1,22 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/backend-k8s-287402/scrape-save-service
+  pullPolicy: IfNotPresent
+  tag: "v0.3.37"
+
+config:
+  urlNATS: "nats://nats:4222"
+  urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/bank"
+  svcStartHour: "22"
+  svcEndHour: "16"
+
+service:
+  type: ClusterIP
+  port: 8088
+  targetPort: 8088
+
+serviceAccount:
+  name: neonesia-ksa

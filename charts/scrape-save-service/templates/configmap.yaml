@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  namespace: {{ .Release.Namespace }}
+  creationTimestamp: 2021-09-14T00:00:00Z
+data:
+  NATS_URL: {{ .Values.config.urlNATS }}
+  DB_URL: {{ .Values.config.urlDB }}
+  SERVICE_START_HOUR: {{ .Values.config.svcStartHour }}
+  SERVICE_END_HOUR: {{ .Values.config.svcEndHour }}

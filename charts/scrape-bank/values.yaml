@@ -1,0 +1,24 @@
+isGCP: false
+isTrace: false 
+
+replicaCount: 1
+
+image:
+  repository: reg.dev.neonesia.net/crp/scrape-bank
+  pullPolicy: IfNotPresent
+  tag: "v0.4.109"
+
+podAnnotations: 
+  sidecar.istio.io/inject: false
+
+config:
+  urlNATS: "nats://nats:4222"
+
+resources: {}
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80

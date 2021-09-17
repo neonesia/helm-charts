@@ -1,0 +1,11 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/backend-k8s-287402/scrape-bank
+  pullPolicy: IfNotPresent
+  tag: "v0.4.109"
+
+config:
+  urlNATS: "nats://nats:4222"

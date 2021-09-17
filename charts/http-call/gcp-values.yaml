@@ -1,0 +1,12 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/backend-k8s-287402/http-call
+  pullPolicy: IfNotPresent
+  tag: "v0.0.1"
+
+config:
+  urlNATS: "nats://nats:4222"
+  chanSizeNATS: 10  

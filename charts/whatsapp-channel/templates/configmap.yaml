@@ -1,0 +1,13 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: {{ .Release.Name }}-configmap
+  namespace: {{ .Release.Namespace }}
+  creationTimestamp: 2021-09-16T00:00:00Z
+data:
+  NATS_URL: {{ .Values.config.urlNATS }}
+  NATS_SUBJECT: {{ .Values.config.sbjNATS }}
+  DB_URL: {{ .Values.config.urlDB }}
+  WHATSAPP_ID: {{ .Values.config.whatsappID }}
+  WHATSAPP_VER: {{ .Values.config.whatsappVer }}
+  LOG_LEVEL: {{ .Values.config.logLevel }}

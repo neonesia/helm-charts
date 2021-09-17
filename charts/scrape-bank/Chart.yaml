@@ -1,0 +1,6 @@
+apiVersion: v2
+name: scrape-bank
+description: A Helm chart for Scrape Bank
+type: application
+version: 0.1.0
+appVersion: "v0.4.109"
