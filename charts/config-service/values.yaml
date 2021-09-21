@@ -5,13 +5,13 @@ replicaCount: 1
 image:
   repository: reg.dev.neonesia.net/crp/config-service
   pullPolicy: IfNotPresent
-  tag: "v0.0.1"
+  tag: "latest"
 
 serviceAccount:
   name: ""
 
 podAnnotations: 
-  sidecar.istio.io/inject: false
+  sidecar.istio.io/inject: "false"
 
 config:
   urlNATS: "nats://nats:4222"

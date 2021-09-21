@@ -45,4 +45,8 @@ spec:
             - "-instances=backend-k8s-287402:asia-southeast2:pg-bank=tcp:5432"
           securityContext:
             runAsNonRoot: true
+        {{ else }}
+          securityContext:
+            capabilities:
+              add: ["SYS_PTRACE"]
         {{- end }}
