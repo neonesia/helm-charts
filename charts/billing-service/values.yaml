@@ -11,11 +11,11 @@ serviceAccount:
   name: ""
 
 podAnnotations: 
-  sidecar.istio.io/inject: false
+  sidecar.istio.io/inject: "false"
 
 config:
   urlNATS: "nats://nats:4222"
-  chanSizeNATS: 10
+  chanSizeNATS: "10"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
 
 resources: {}

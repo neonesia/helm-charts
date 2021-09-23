@@ -9,11 +9,11 @@ image:
   tag: "v0.0.1"
 
 podAnnotations: 
-  sidecar.istio.io/inject: false
+  sidecar.istio.io/inject: "false"
 
 config:
   urlNATS: "nats://nats:4222"
-  chanSizeNATS: 10  
+  chanSizeNATS: "10"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

@@ -9,7 +9,4 @@ image:
 
 config:
   urlNATS: "nats://nats:4222"
-  chanSizeNATS: 10
-
-serviceAccount:
-  name: neonesia-ksa
+  chanSizeNATS: "10"

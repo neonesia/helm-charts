@@ -11,7 +11,7 @@ serviceAccount:
   name: ""
 
 podAnnotations: 
-  sidecar.istio.io/inject: false
+  sidecar.istio.io/inject: "false"
 
 config:
   urlNATS: "nats://nats:4222"

@@ -17,7 +17,7 @@ serviceAccount:
   name: ""
 
 podAnnotations: 
-  sidecar.istio.io/inject: false
+  sidecar.istio.io/inject: "false"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

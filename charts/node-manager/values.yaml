@@ -11,13 +11,13 @@ serviceAccount:
   name: ""
 
 podAnnotations: 
-  sidecar.istio.io/inject: false
+  sidecar.istio.io/inject: "false"
 
 config:
   urlNATS: "nats://nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   addrGRPC: "localhost:8020"
-  isTLS: false
+  isTLS: "false"
   groupNode: "KEPOO"
   queueSizeTask: "100"
   queueSizeMobile:  "200"

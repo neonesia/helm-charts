@@ -9,4 +9,4 @@ image:
 
 config:
   urlNATS: "nats://nats:4222"
-  chanSizeNATS: 10  
+  chanSizeNATS: "10"

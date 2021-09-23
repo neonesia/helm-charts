@@ -8,11 +8,11 @@ image:
   tag: "v0.0.1"
 
 podAnnotations: 
-  sidecar.istio.io/inject: false
+  sidecar.istio.io/inject: "false"
 
 config:
   urlNATS: "nats://nats:4222"
-  chanSizeNATS: 10
+  chanSizeNATS: "10"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
@@ -29,6 +29,6 @@ resources: {}
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 100
+  maxReplicas: 10
   targetCPUUtilizationPercentage: 80
   # targetMemoryUtilizationPercentage: 80
