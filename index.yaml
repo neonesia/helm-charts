@@ -3,6 +3,16 @@ entries:
   bank-collector:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2021-09-23T09:34:41.520709393Z"
+    description: A Helm chart for Bank Collector
+    digest: 3cee53c215d48f3b77c857284098fb0911facfe81abddfe67630996712603140
+    name: bank-collector
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.1/bank-collector-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2021-09-17T04:13:34.517632091Z"
     description: A Helm chart for Bank Collector
     digest: 02bea6f316f3c4a665360f7db0c4f26793f087324d61b29c965a907e4891ccfa
@@ -12,6 +22,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.0/bank-collector-0.1.0.tgz
     version: 0.1.0
   billing-service:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-09-23T09:34:41.696386957Z"
+    description: A Helm chart for Billing Service
+    digest: d391fe3cfe2c15fb232cbb2547774f1910f6c9bee403ac9d6c64994ceaf0a545
+    name: billing-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.1/billing-service-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-09-17T04:13:34.682531857Z"
@@ -25,6 +45,16 @@ entries:
   chrome-neonesia:
   - apiVersion: v2
     appVersion: v0.1.10
+    created: "2021-09-23T09:34:41.875748284Z"
+    description: A Helm chart for Chrome Neonesia
+    digest: 257e98b2a127951eb0d621a1893f3da6502cd98a0d833cafaa53485edc95aef7
+    name: chrome-neonesia
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/chrome-neonesia-0.1.1/chrome-neonesia-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.1.10
     created: "2021-09-17T04:13:34.827117874Z"
     description: A Helm chart for Chrome Neonesia
     digest: 2003555d9afcceb61cb7c4a019df9435544a662d72228d159a7082d5127acec1
@@ -34,6 +64,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/chrome-neonesia-0.1.0/chrome-neonesia-0.1.0.tgz
     version: 0.1.0
   config-service:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-09-23T09:34:42.05937643Z"
+    description: A Helm chart for Config Information Service
+    digest: 16092e01c853a4800fcefff3a853b65c2ef8daaa59fac99b9ebaa805212cdef7
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.2/config-service-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-09-21T09:06:48.04942602Z"
@@ -57,6 +97,16 @@ entries:
   h3i-channel:
   - apiVersion: v2
     appVersion: v0.0.14
+    created: "2021-09-23T09:34:42.233747867Z"
+    description: A Helm chart for Tree Channel
+    digest: ebd99420137b5bb95fedadbbe0398dec612072067e2a00e1f760502347ca4171
+    name: h3i-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/h3i-channel-0.1.1/h3i-channel-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.0.14
     created: "2021-09-17T04:13:35.164957045Z"
     description: A Helm chart for Tree Channel
     digest: fc4bf9438150a941c8ead279a4f8ff0c8a965bc63cc60b7b28377428a09963e1
@@ -66,6 +116,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/h3i-channel-0.1.0/h3i-channel-0.1.0.tgz
     version: 0.1.0
   http-call:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-09-23T09:34:42.406287423Z"
+    description: A Helm chart for External HTTP Call
+    digest: 64f3b7eb43eb13b15d0b9526c1372278d4bac18e01c25a7889267a4110da99e1
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.1/http-call-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-09-17T04:13:35.314388826Z"
@@ -79,6 +139,16 @@ entries:
   http-channel:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2021-09-23T09:34:42.588609741Z"
+    description: A Helm chart for Http Channel
+    digest: e50b481d99cbd6dd8954b5de4643f10c2feb27d01309adfce9180e4e9e6fa6f9
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.1/http-channel-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2021-09-17T04:13:35.475716019Z"
     description: A Helm chart for Http Channel
     digest: 486dbec13fc07f5aee86264a71466faece59a42e44bdf8f078c228d4f35daf24
@@ -88,6 +158,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.0/http-channel-0.1.0.tgz
     version: 0.1.0
   jabber-channel:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-09-23T09:34:42.759487234Z"
+    description: A Helm chart for Jabber Channel
+    digest: 44eda4a76bcb3122140872b4007660093b970b0ce4546b3c2ba58e7b0a8fb908
+    name: jabber-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.1/jabber-channel-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-09-17T04:13:35.641487378Z"
@@ -101,6 +181,16 @@ entries:
   node-manager:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2021-09-23T09:34:42.939067582Z"
+    description: A Helm chart for Modem Node Manager
+    digest: 096e613f1cca8b36a18b27d6c47a8f311d4eb97717607eb1b9a087c1a4328c4c
+    name: node-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.1/node-manager-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2021-09-17T04:13:35.795162327Z"
     description: A Helm chart for Modem Node Manager
     digest: 7523e73e4bd299cb127cf4a7ba0da461c853074aa861cc71addf2f594bde5353
@@ -110,6 +200,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.0/node-manager-0.1.0.tgz
     version: 0.1.0
   order-service:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-09-23T09:34:43.095179824Z"
+    description: A Helm chart for Order Service
+    digest: 1133a779e4666f5acd9303ce6ab3580d0228983f1355095831d245cbf69260ff
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.1/order-service-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-09-17T04:13:35.954855632Z"
@@ -123,6 +223,16 @@ entries:
   product-service:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2021-09-23T09:34:43.254676398Z"
+    description: A Helm chart for Product Service
+    digest: e70000635574f1b617519a5c3dd560dbea3a0b780864410b1b6250c2189cbc06
+    name: product-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.1/product-service-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2021-09-17T04:13:36.116318023Z"
     description: A Helm chart for Product Service
     digest: 51aa56bbc134c4754743e510d6349501667eeba579727431a8b1b671d8015de2
@@ -132,6 +242,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.0/product-service-0.1.0.tgz
     version: 0.1.0
   reseller-service:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-09-23T09:34:43.415988451Z"
+    description: A Helm chart for Reseller Service
+    digest: 118199c82ee2d67039c59eed6c026ae52a3399082e5581ddecd1e8ab7e81d19e
+    name: reseller-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/reseller-service-0.1.1/reseller-service-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-09-17T04:13:36.2662823Z"
@@ -145,6 +265,16 @@ entries:
   scrape-bank:
   - apiVersion: v2
     appVersion: v0.4.109
+    created: "2021-09-23T09:34:43.585688229Z"
+    description: A Helm chart for Scrape Bank
+    digest: d50a2d7e6473a4f9584041309908f40e9da2cec7ab6e44849a6fc69ba40c2a87
+    name: scrape-bank
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/scrape-bank-0.1.1/scrape-bank-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.4.109
     created: "2021-09-17T04:13:36.429764776Z"
     description: A Helm chart for Scrape Bank
     digest: c4cb04b8478e851adabfa2a4ee4ff3d6179b860a362e64c61c2ff80ccdeda36a
@@ -156,6 +286,16 @@ entries:
   scrape-manager:
   - apiVersion: v2
     appVersion: v0.2.45
+    created: "2021-09-23T09:34:43.76356851Z"
+    description: A Helm chart for Scrape Manager
+    digest: 211071d148f315884ae0febf666de62c47859acdb3c2858f279c8cc42e31c31c
+    name: scrape-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/scrape-manager-0.1.1/scrape-manager-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.2.45
     created: "2021-09-17T04:13:36.58427512Z"
     description: A Helm chart for Scrape Manager
     digest: ad0182404a50ad2be9421123fda8c045ce5c004fd1521d7ae0a0b336cf1628fc
@@ -165,6 +305,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/scrape-manager-0.1.0/scrape-manager-0.1.0.tgz
     version: 0.1.0
   scrape-save-service:
+  - apiVersion: v2
+    appVersion: 0.3.37
+    created: "2021-09-23T09:34:43.939881637Z"
+    description: A Helm chart for ScrapeSaveService
+    digest: 0ef0513228d079b0c295b18a3d38fae0b5574375b6c274bd801964a64b908359
+    name: scrape-save-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/scrape-save-service-0.1.2/scrape-save-service-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: 0.3.37
     created: "2021-09-17T04:13:36.762090888Z"
@@ -188,6 +338,16 @@ entries:
   telegram-channel:
   - apiVersion: v2
     appVersion: v0.1.31
+    created: "2021-09-23T09:34:44.125428872Z"
+    description: A Helm chart for Telegram Messenger Channel
+    digest: b649bdcd603530c7dc7bd12ea20f02d31234c81ad02476bc2cc81468b7cd61f4
+    name: telegram-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/telegram-channel-0.1.1/telegram-channel-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.1.31
     created: "2021-09-17T04:13:36.913604654Z"
     description: A Helm chart for Telegram Messenger Channel
     digest: e120ed3558b37366da40b5b50b864ef13d9b7bd39589f56e5b2b6f5c127f01c7
@@ -199,6 +359,16 @@ entries:
   ticket-service:
   - apiVersion: v2
     appVersion: v0.8.2
+    created: "2021-09-23T09:34:44.292727713Z"
+    description: A Helm chart for Bank Ticket Service
+    digest: 083d0d2c462ce1ccd3616583800b3e594e5291ce2cd3eee4bb5a3ceb251a2642
+    name: ticket-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/ticket-service-0.1.1/ticket-service-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.8.2
     created: "2021-09-17T04:13:37.060081857Z"
     description: A Helm chart for Bank Ticket Service
     digest: 2f73620c7aac60a93b304c02d80876c30c48c8dae1eeb736cbb794d9e957db7a
@@ -208,6 +378,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/ticket-service-0.1.0/ticket-service-0.1.0.tgz
     version: 0.1.0
   whatsapp-channel:
+  - apiVersion: v2
+    appVersion: v0.6.22
+    created: "2021-09-23T09:34:44.464806724Z"
+    description: A Helm chart for Whatsapp Messenger Channel
+    digest: 5bcffb14043d0dac7fc5734843140ee80c469f1f3255c0099c828f9b882118bd
+    name: whatsapp-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/whatsapp-channel-0.1.1/whatsapp-channel-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: v0.6.22
     created: "2021-09-17T04:13:37.217765677Z"
