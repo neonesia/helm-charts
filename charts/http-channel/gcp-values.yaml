@@ -9,7 +9,8 @@ image:
 
 config:
   urlNATS: "nats://nats:4222"
-  urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
+  # urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
+  # chanSizeNATS: "10"
 
 service:
   type: ClusterIP
