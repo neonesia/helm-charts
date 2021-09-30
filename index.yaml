@@ -180,6 +180,16 @@ entries:
   jabber-channel:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2021-09-30T08:16:57.169483212Z"
+    description: A Helm chart for Jabber Channel
+    digest: 607ba2e5be3d1918639771b5290371da5f452c15ec0f4852820ca42385212954
+    name: jabber-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.2/jabber-channel-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2021-09-23T09:34:42.759487234Z"
     description: A Helm chart for Jabber Channel
     digest: 44eda4a76bcb3122140872b4007660093b970b0ce4546b3c2ba58e7b0a8fb908
