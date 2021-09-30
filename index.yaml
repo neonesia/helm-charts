@@ -118,6 +118,16 @@ entries:
   http-call:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2021-09-30T02:56:02.293019121Z"
+    description: A Helm chart for External HTTP Call
+    digest: 6510d0ffbcb9bee78510dff93b2feae1ea06cc3df3cd21606f78c279b2ab4edf
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.2/http-call-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2021-09-23T09:34:42.406287423Z"
     description: A Helm chart for External HTTP Call
     digest: 64f3b7eb43eb13b15d0b9526c1372278d4bac18e01c25a7889267a4110da99e1
@@ -137,6 +147,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.0/http-call-0.1.0.tgz
     version: 0.1.0
   http-channel:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-09-30T02:56:02.472496791Z"
+    description: A Helm chart for Http Channel
+    digest: d7c9369c56418bd01d7ec8733d5f93cdb2ff6f076ef9581510e18b20d70e6928
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.2/http-channel-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-09-23T09:34:42.588609741Z"
@@ -202,6 +222,16 @@ entries:
   order-service:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2021-09-30T02:56:02.653296171Z"
+    description: A Helm chart for Order Service
+    digest: 542bf37d614f3c77ce82681508c8ce9ec4385b495d562aeb90db20030087cfcb
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.2/order-service-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2021-09-23T09:34:43.095179824Z"
     description: A Helm chart for Order Service
     digest: 1133a779e4666f5acd9303ce6ab3580d0228983f1355095831d245cbf69260ff
@@ -221,6 +251,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.0/order-service-0.1.0.tgz
     version: 0.1.0
   product-service:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-09-30T02:56:02.843927127Z"
+    description: A Helm chart for Product Service
+    digest: 488856cc65cea91caa47b4aa8df54aaccb48cbf8bdd0c095053103e1687551c3
+    name: product-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.2/product-service-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-09-23T09:34:43.254676398Z"
