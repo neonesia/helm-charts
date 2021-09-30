@@ -19,10 +19,10 @@ config:
 
 service:
   type: ClusterIP
-  port: 8089
-  targetPort: 8089
+  port: 8333
+  targetPort: 8333
 
-containerPort: 8089
+containerPort: 8333
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

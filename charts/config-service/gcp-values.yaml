@@ -11,13 +11,6 @@ config:
   urlNATS: "nats://nats:4222"
   urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
 
-service:
-  type: ClusterIP
-  port: 8089
-  targetPort: 8089
-
-containerPort: 8089
-
 serviceAccount:
   name: neonesia-ksa
 

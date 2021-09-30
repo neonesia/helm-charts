@@ -7,3 +7,4 @@ metadata:
 data:
   NATS_URL: {{ .Values.config.urlNATS }}
   DB_URL:  {{ .Values.config.urlDB }}
+  HTTP_PORT: {{ .Values.service.port }}
