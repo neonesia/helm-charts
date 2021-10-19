@@ -5,7 +5,6 @@ replicaCount: 1
 image:
   repository: reg.dev.neonesia.net/crp/http-channel
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
   tag: "v0.0.1"
 
 podAnnotations:
@@ -13,8 +12,6 @@ podAnnotations:
 
 config:
   urlNATS: "nats://nats:4222"
-  # urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  # chanSizeNATS: "10"
 
 service:
   type: ClusterIP
