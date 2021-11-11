@@ -7,8 +7,8 @@ metadata:
 data:
   NATS_URL: {{ .Values.config.urlNATS }}
   DB_RUL: {{ .Values.config.urlDB }}
-  GRPC_ADDR: {{ .Values.config.addrGRPC }}
-  IS_TLS: {{ .Values.config.isTLS }}
   NODE_GROUP: {{ .Values.config.groupNode }}
-  TASK_QUEUE_SIZE: {{ .Values.config.queueSizeTask }}
-  MOBILE_QUEUE_SIZE: {{ .Values.config.queueSizeMobile }}
+  MAX_USSD_TASK: {{ .Values.config.maxUSSDTask | quote }}
+  MAX_USSD_MOBILE: {{ .Values.config.maxUSSDMobile | quote }}
+  MAX_SEND_SMS: {{ .Values.config.maxMobile | quote }}
+  MAX_SEND_SMS_MOBILE: {{ .Values.config.maxSendSMSMobile | quote }}

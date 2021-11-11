@@ -6,4 +6,4 @@ metadata:
   creationTimestamp: 2021-09-16T00:00:00Z
 data:
   NATS_URL: {{ .Values.urlNATS }}
-  TRACE: {{ .Values.isTrace }}
+  TRACE: {{ .Values.isTrace | quote }}

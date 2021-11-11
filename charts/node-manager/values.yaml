@@ -16,11 +16,11 @@ podAnnotations:
 config:
   urlNATS: "nats://nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  addrGRPC: "localhost:8020"
-  isTLS: "false"
   groupNode: "KEPOO"
-  queueSizeTask: "100"
-  queueSizeMobile:  "200"
+  maxUSSDTask: "1200"     # := NodeCount * USSDMobile
+  maxUSSDMobile:  "1200"  # := NodeCount * USSDMobile
+  maxSendSMS: "200"       # := NodeCount * SMSMobile
+  maxSendSMSMobile: "200" # := NodeCount * SMSMobile
 
 service:
   type: ClusterIP
