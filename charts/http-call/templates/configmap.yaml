@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-  creationTimestamp: 2021-09-16T00:00:00Z
+  creationTimestamp: 2021-10-19T14:00:00Z
 data:
   NATS_URL: {{ .Values.config.urlNATS }}
-  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS }}
+  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote  }}
