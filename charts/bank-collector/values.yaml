@@ -12,7 +12,7 @@ podAnnotations:
   sidecar.istio.io/inject: "false"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlPOST: "http://scrape-save-service:8088/upload/json"
 
 resources: {}

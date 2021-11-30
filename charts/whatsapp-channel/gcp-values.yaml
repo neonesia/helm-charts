@@ -8,7 +8,7 @@ image:
   tag: "v0.6.22"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://legacy:legacy2020@nats:4222"
   sbjNATS: "whatsapp.>"
   urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/bank"
   whatsappID: "6285717742220@s.whatsapp.net"

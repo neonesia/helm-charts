@@ -11,7 +11,7 @@ podAnnotations:
   sidecar.istio.io/inject: "false"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   chanSizeNATS: 10
 
 resources: {}

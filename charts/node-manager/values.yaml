@@ -14,7 +14,7 @@ podAnnotations:
   sidecar.istio.io/inject: "false"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://node:m0DemN0de2o22@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   groupNode: "KEPOO"
   maxUSSDTask: "1200"     # := NodeCount * USSDMobile

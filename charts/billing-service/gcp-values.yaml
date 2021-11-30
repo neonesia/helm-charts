@@ -8,7 +8,7 @@ image:
   tag: "v0.0.1"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   chanSizeNATS: "10"
   urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
 

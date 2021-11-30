@@ -11,7 +11,7 @@ podAnnotations:
   sidecar.istio.io/inject: "false"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://legacy:legacy2020@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"
   svcStartHour: "22"
   svcEndHour: "16"

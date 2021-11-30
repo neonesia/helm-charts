@@ -7,7 +7,7 @@ image:
   tag: "v0.8.2"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://legacy:legacy2020@nats:4222"
   urlIRSDB: "neodev:n3ones!aDEV@tcp(mysql-ext)/avr?parseTime=true" # "irs:m4nd4l4@tcp(172.16.9.18:3307)/avr?parseTime=true"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"
   diffTime: "10"

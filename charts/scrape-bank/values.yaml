@@ -12,7 +12,7 @@ podAnnotations:
   sidecar.istio.io/inject: "false"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://legacy:legacy2020@nats:4222"
 
 resources: {}
 

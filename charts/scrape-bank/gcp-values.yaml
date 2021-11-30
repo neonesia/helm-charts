@@ -8,4 +8,4 @@ image:
   tag: "v0.4.109"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://legacy:legacy2020@nats:4222"
