@@ -86,6 +86,16 @@ entries:
   config-service:
   - apiVersion: v2
     appVersion: v0.1.2
+    created: "2021-12-02T09:55:17.202662241Z"
+    description: A Helm chart for Config Information Service
+    digest: 388f79b0c41607a15c359116df9d03e1cdc2fe6763f62e5dee71ebf39925755e
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.6/config-service-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: v0.1.2
     created: "2021-11-30T09:08:44.077430486Z"
     description: A Helm chart for Config Information Service
     digest: c76a1d504c77c76dbbd018d71658fbf75f90092c31992d0a32cfb22861ede202
@@ -197,6 +207,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.0/http-call-0.1.0.tgz
     version: 0.1.0
   http-channel:
+  - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2021-12-02T09:55:17.403664119Z"
+    description: A Helm chart for Http Channel
+    digest: 9d2b6dbe71c67ce816f4ab9cb2ca43baa8ca733ece8e8a88c55630b68bfee208
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.4/http-channel-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2021-11-30T09:08:44.490908467Z"
@@ -618,4 +638,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/whatsapp-channel-0.1.0/whatsapp-channel-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-30T09:08:46.680903692Z"
+generated: "2021-12-02T09:55:17.40379742Z"
