@@ -208,6 +208,16 @@ entries:
     version: 0.1.0
   http-channel:
   - apiVersion: v2
+    appVersion: v0.1.2
+    created: "2021-12-03T01:10:35.299550549Z"
+    description: A Helm chart for Http Channel
+    digest: d6fca4fefd7695d661c6f4f4d3bef4d2ae23e41cda4ebb333bbdabb4ab8235b6
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.5/http-channel-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: v0.1.1
     created: "2021-12-02T09:55:17.403664119Z"
     description: A Helm chart for Http Channel
@@ -638,4 +648,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/whatsapp-channel-0.1.0/whatsapp-channel-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-02T09:55:17.40379742Z"
+generated: "2021-12-03T01:10:35.299684553Z"
