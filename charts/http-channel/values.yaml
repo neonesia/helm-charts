@@ -5,10 +5,10 @@ replicaCount: 1
 image:
   repository: reg.dev.neonesia.net/crp/http-channel
   pullPolicy: IfNotPresent
-  tag: "v0.0.1"
+  tag: "v0.1.1"
 
 podAnnotations:
-  {}
+  sidecar.istio.io/inject: "false"
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
