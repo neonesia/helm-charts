@@ -8,9 +8,6 @@ image:
   pullPolicy: IfNotPresent
   tag: "v0.4.109"
 
-podAnnotations: 
-  sidecar.istio.io/inject: "false"
-
 config:
   urlNATS: "nats://legacy:legacy2020@nats:4222"
 

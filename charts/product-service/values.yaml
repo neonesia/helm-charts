@@ -11,9 +11,6 @@ image:
 serviceAccount:
   name: ""
 
-podAnnotations: 
-  sidecar.istio.io/inject: "false"
-
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
