@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/backend-k8s-287402/http-call
   pullPolicy: IfNotPresent
-  tag: "v0.1.12"
+  tag: "v0.1.1"
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
