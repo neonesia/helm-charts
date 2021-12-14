@@ -198,6 +198,16 @@ entries:
   http-call:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2021-12-14T10:40:00.108092524Z"
+    description: A Helm chart for External HTTP Call
+    digest: 23086fc80f0ead0befbea77be065c415845e25c47ee956dee78136a6ba7d9de4
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.6/http-call-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2021-12-14T09:59:20.12557924Z"
     description: A Helm chart for External HTTP Call
     digest: e3f812bcdea96f4af90be98af498489cd3eec14613e77b84b7cbafce4939b0c8
@@ -818,4 +828,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/whatsapp-channel-0.1.0/whatsapp-channel-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-14T09:59:20.125731047Z"
+generated: "2021-12-14T10:40:00.108258732Z"
