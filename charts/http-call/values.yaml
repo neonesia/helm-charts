@@ -6,7 +6,7 @@ image:
   repository: reg.dev.neonesia.net/crp/
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.1.1"
+  tag: "v0.1.12"
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
