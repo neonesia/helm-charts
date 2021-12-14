@@ -1,0 +1,17 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/backend-k8s-287402/bankticket-service
+  pullPolicy: IfNotPresent
+  tag: "v0.0.1"
+
+containerPort: 80
+
+config:
+  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
+  urlPOST: "http://bankticket-service/upload/json"
+
+serviceAccount:
+  name: neonesia-ksa

@@ -3,18 +3,16 @@ isGCP: false
 replicaCount: 1
 
 image:
-  repository: reg.dev.neonesia.net/crp/product-service
+  repository: reg.dev.neonesia.net/crp/order-batch
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.1.8"
+  tag: "latest"
 
 serviceAccount:
   name: ""
 
-config:
+config:            
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  chanSizeNATS: "10"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
@@ -31,6 +29,6 @@ resources: {}
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 10
+  maxReplicas: 100
   targetCPUUtilizationPercentage: 80
   # targetMemoryUtilizationPercentage: 80

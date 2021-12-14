@@ -1,0 +1,28 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/backend-k8s-287402/jabber-replicator
+  pullPolicy: IfNotPresent
+  tag: "v0.1.0"
+
+config:
+  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
+  urlIRSDB: ""
+  urlOTMDB: ""
+  jabberAccounts: 
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+    - acct: "jabber-replicator:password"
+
+serviceAccount:
+  name: neonesia-ksa
+
