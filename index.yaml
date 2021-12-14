@@ -33,6 +33,16 @@ entries:
     version: 0.1.0
   billing-service:
   - apiVersion: v2
+    appVersion: v0.1.2
+    created: "2021-12-14T02:25:18.048105406Z"
+    description: A Helm chart for Billing Service
+    digest: 0169f4d0b9370f75aa068db615d4110d77d2346b62a39502a0e27723b133ad16
+    name: billing-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.5/billing-service-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: v0.1.1
     created: "2021-12-06T03:14:41.487282332Z"
     description: A Helm chart for Billing Service
@@ -798,4 +808,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/whatsapp-channel-0.1.0/whatsapp-channel-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-06T03:14:44.056704522Z"
+generated: "2021-12-14T02:25:18.048959616Z"
