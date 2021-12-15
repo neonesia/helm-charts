@@ -20,6 +20,9 @@ spec:
       labels:
         {{- include "http-call.selectorLabels" . | nindent 8 }}
     spec:
+      {{- if .Values.isGCP }}
+      serviceAccountName: {{ .Values.serviceAccount.name }}
+      {{- end }}
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
@@ -39,3 +42,46 @@ spec:
           securityContext:
             runAsNonRoot: true
         {{- end }}
+
+
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: {{ include "http-call.fullname" . }}
+#   labels:
+#     {{- include "http-call.labels" . | nindent 4 }}
+# spec:
+#   {{- if not .Values.autoscaling.enabled }}
+#   replicas: {{ .Values.replicaCount }}
+#   {{- end }}
+#   selector:
+#     matchLabels:
+#       {{- include "http-call.selectorLabels" . | nindent 6 }}
+#   template:
+#     metadata:
+#       {{- with .Values.podAnnotations }}
+#       annotations:
+#         {{- toYaml . | nindent 8 }}
+#       {{- end }}
+#       labels:
+#         {{- include "http-call.selectorLabels" . | nindent 8 }}
+#     spec:
+#       containers:
+#         - name: {{ .Chart.Name }}
+#           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+#           imagePullPolicy: {{ .Values.image.pullPolicy }}
+#           envFrom:
+#           - configMapRef:
+#               name: {{ .Release.Name }}-configmap
+#           resources:
+#             {{- toYaml .Values.resources | nindent 12 }}
+#         {{- if .Values.isGCP }}
+#         - name: cloud-sql-proxy
+#           image: gcr.io/cloudsql-docker/gce-proxy:latest
+#           command:
+#             - "/cloud_sql_proxy"
+#             - "-ip_address_types=PRIVATE"
+#             - "-instances=backend-k8s-287402:asia-southeast2:pg-bank=tcp:5432"
+#           securityContext:
+#             runAsNonRoot: true
+#         {{- end }}
