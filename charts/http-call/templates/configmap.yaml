@@ -8,14 +8,3 @@ data:
   NATS_URL: {{ .Values.config.urlNATS }}
   NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote }}
   DB_URL:  {{ .Values.config.urlDB }}
-
-# apiVersion: v1
-# kind: ConfigMap
-# metadata:
-#   name: {{ .Release.Name }}-configmap
-#   namespace: {{ .Release.Namespace }}
-#   creationTimestamp: 2021-12-14T14:00:00Z
-# data:
-#   NATS_URL: {{ .Values.config.urlNATS }}
-#   NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote  }}
-#   DB_URL: {{ .Values.config.urlDB }}
