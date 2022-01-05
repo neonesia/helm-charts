@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   bank-collector:
   - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:40.869317247Z"
+    description: A Helm chart for Bank Collector
+    digest: b9d934de8f69dd15b8e6fc542b130d00acb2a6aee37c7fa48fed705a60f9352c
+    name: bank-collector
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.3/bank-collector-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: v0.1.0
     created: "2021-11-30T09:08:43.692029645Z"
     description: A Helm chart for Bank Collector
@@ -31,6 +41,17 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.0/bank-collector-0.1.0.tgz
     version: 0.1.0
+  bankticket-service:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:41.020382269Z"
+    description: A Helm chart for BankTicket Service
+    digest: e93634e981b9965fe418dbc148f0223cb9d0e422ef5b82beac1a66ad66b715a3
+    name: bankticket-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bankticket-service-0.0.2/bankticket-service-0.0.2.tgz
+    version: 0.0.2
   billing-service:
   - apiVersion: v2
     appVersion: v0.1.2
@@ -174,7 +195,27 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.0/config-service-0.1.0.tgz
     version: 0.1.0
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:41.187980833Z"
+    description: A Helm chart for Config Information Service
+    digest: b1aedf0fb8a8fd5323b298eb14251c8d72d876960dba97c1b54dee6a6146442a
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.0.1/config-service-0.0.1.tgz
+    version: 0.0.1
   h3i-channel:
+  - apiVersion: v2
+    appVersion: v0.0.14
+    created: "2022-01-05T09:25:41.374976225Z"
+    description: A Helm chart for Tree Channel
+    digest: 664a1e999bf607e73b66fd47240ec374c7f43f8f55811156b13a6ff717f6f325
+    name: h3i-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/h3i-channel-0.1.2/h3i-channel-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: v0.0.14
     created: "2021-09-23T09:34:42.233747867Z"
@@ -407,7 +448,28 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.0/http-channel-0.1.0.tgz
     version: 0.1.0
+  isimple-manager:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:41.552565083Z"
+    description: A Helm chart for ISimple Manager
+    digest: 9e8b3fcad1ea38e70fe07fbe5b56d4a3cf55fc788cfd000f94e65f71b4320c9a
+    name: isimple-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.1/isimple-manager-0.0.1.tgz
+    version: 0.0.1
   jabber-channel:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:41.698011196Z"
+    description: A Helm chart for Jabber Channel
+    digest: 5dc3246269b2bd12f54b12fba10fe6b59c0b3ba93ef5c38c28773c5b1b25efec
+    name: jabber-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.5/jabber-channel-0.1.5.tgz
+    version: 0.1.5
   - apiVersion: v2
     appVersion: v0.1.0
     created: "2021-12-06T03:14:42.229686864Z"
@@ -458,7 +520,28 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.0/jabber-channel-0.1.0.tgz
     version: 0.1.0
+  jabber-replicator:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:41.858048611Z"
+    description: A Helm chart for Jabber Replicator Service
+    digest: 54ef8c0c4b5a56fcd2649b95b66f196a06b7be8eb794adb4bc4894eecb7c1df3
+    name: jabber-replicator
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-replicator-0.0.2/jabber-replicator-0.0.2.tgz
+    version: 0.0.2
   node-manager:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:42.036050775Z"
+    description: A Helm chart for Modem Node Manager
+    digest: ebd158408039cb993f1ca416e94c5693493ee7859db65948fe34e04f97dadd11
+    name: node-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.5/node-manager-0.1.5.tgz
+    version: 0.1.5
   - apiVersion: v2
     appVersion: v0.1.0
     created: "2021-12-06T03:14:42.40537632Z"
@@ -499,6 +582,17 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.0/node-manager-0.1.0.tgz
     version: 0.1.0
+  order-batch:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:42.214783449Z"
+    description: A Helm chart for Order Batch Process
+    digest: 26bdfb23efa1d80b9d1032144249f8aa858569a36f908b1f8ede1b4a80764743
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.1/order-batch-0.0.1.tgz
+    version: 0.0.1
   order-service:
   - apiVersion: v2
     appVersion: v0.1.1
@@ -601,6 +695,17 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.0/product-service-0.1.0.tgz
     version: 0.1.0
+  report-batch:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:42.378445914Z"
+    description: A Helm chart for Report Batch
+    digest: ae5ca71d8423863a751d7c3226a0647651b2c61a727872066013e05e11221f8e
+    name: report-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/report-batch-0.0.2/report-batch-0.0.2.tgz
+    version: 0.0.2
   reseller-service:
   - apiVersion: v2
     appVersion: v0.1.1
@@ -775,7 +880,39 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/scrape-save-service-0.1.0/scrape-save-service-0.1.0.tgz
     version: 0.1.0
+  statistic-batch:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:42.55155201Z"
+    description: A Helm chart for Statistic Batch
+    digest: c66e8ba9290697a1eda8c542d75a56768e0e7c6aa8e4cf39af70ddb87cadbfd1
+    name: statistic-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/statistic-batch-0.0.3/statistic-batch-0.0.3.tgz
+    version: 0.0.3
+  supplier-service:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:42.702814003Z"
+    description: A Helm chart for Supplier Information Service
+    digest: 7448d53105a1124479bf403d288f0055bcacf17b7240165651de89f17d525b4d
+    name: supplier-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/supplier-service-0.0.2/supplier-service-0.0.2.tgz
+    version: 0.0.2
   telegram-channel:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:42.858320356Z"
+    description: A Helm chart for Telegram Messenger Channel
+    digest: 1f86c0afc699401247484be22cefea23842c27d47c9ca3f3a289fcde1e68e6b1
+    name: telegram-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/telegram-channel-0.1.4/telegram-channel-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: v0.1.31
     created: "2021-12-06T03:14:43.694934977Z"
@@ -898,4 +1035,15 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/whatsapp-channel-0.1.0/whatsapp-channel-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-15T02:10:58.986841031Z"
+  xsell-service:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-01-05T09:25:43.032377065Z"
+    description: A Helm chart for Croselling Service
+    digest: e3dea88ceff4b0fd845c1c53ebb21d1ac8b7372d5d33e5e4e25f6a8fe6fad05b
+    name: xsell-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-01-05T09:25:43.032598068Z"
