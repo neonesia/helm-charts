@@ -698,6 +698,16 @@ entries:
   report-batch:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-01-05T10:02:16.771927974Z"
+    description: A Helm chart for Report Batch
+    digest: 77ec739915801dfc55faf7902ac46b27da6c7ac43801a2adf6c490aa3fff245d
+    name: report-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/report-batch-0.0.3/report-batch-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-01-05T09:25:42.378445914Z"
     description: A Helm chart for Report Batch
     digest: ae5ca71d8423863a751d7c3226a0647651b2c61a727872066013e05e11221f8e
@@ -883,6 +893,16 @@ entries:
   statistic-batch:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-01-05T10:02:16.934965082Z"
+    description: A Helm chart for Statistic Batch
+    digest: 6be554c819836755c665dd5c03789d66ba36cd81e929682923507a0623e34058
+    name: statistic-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/statistic-batch-0.0.4/statistic-batch-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-01-05T09:25:42.55155201Z"
     description: A Helm chart for Statistic Batch
     digest: c66e8ba9290697a1eda8c542d75a56768e0e7c6aa8e4cf39af70ddb87cadbfd1
@@ -1046,4 +1066,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-05T09:25:43.032598068Z"
+generated: "2022-01-05T10:02:16.935275382Z"
