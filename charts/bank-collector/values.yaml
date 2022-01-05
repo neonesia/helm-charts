@@ -8,12 +8,8 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v0.0.1"
 
-podAnnotations: 
-  sidecar.istio.io/inject: "false"
-
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  urlPOST: "http://scrape-save-service:8088/upload/json"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
@@ -29,7 +25,3 @@ resources: {}
 
 autoscaling:
   enabled: false
-  minReplicas: 1
-  maxReplicas: 100
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80

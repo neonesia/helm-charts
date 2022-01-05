@@ -3,10 +3,10 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/backend-k8s-287402/scrape-manager
+  repository: asia.gcr.io/backend-k8s-287402/h3i-channel
   pullPolicy: IfNotPresent
   tag: "v0.0.14"
 
 config:
-  urlNATS: "nats://nats:4222"
+  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   chanSizeNATS: "10"

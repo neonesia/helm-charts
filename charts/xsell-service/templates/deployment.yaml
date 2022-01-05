@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "statistic-batch.fullname" . }}
+  name: {{ include "xsell-service.fullname" . }}
   labels:
-    {{- include "statistic-batch.labels" . | nindent 4 }}
+    {{- include "xsell-service.labels" . | nindent 4 }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
   selector:
     matchLabels:
-      {{- include "statistic-batch.selectorLabels" . | nindent 6 }}
+      {{- include "xsell-service.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
@@ -18,7 +18,7 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
-        {{- include "statistic-batch.selectorLabels" . | nindent 8 }}
+        {{- include "xsell-service.selectorLabels" . | nindent 8 }}
     spec:
       {{- if .Values.isGCP }}
       serviceAccountName: {{ .Values.serviceAccount.name }}

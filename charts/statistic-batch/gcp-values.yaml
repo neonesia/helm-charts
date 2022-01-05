@@ -5,12 +5,16 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/backend-k8s-287402/statistic-batch
   pullPolicy: IfNotPresent
-  tag: "v0.1.0"
+  tag: "v0.0.1"
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
+  urlCRDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
+  urlSTATDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5433/cloudreload"
 
+sqlproxy: 
+  instances: "-instances=backend-k8s-287402:asia-southeast2:pg-bank=tcp:5432,backend-k8s-287402:asia-southeast2:pg-keycloak=tcp:5433"
+  
 serviceAccount:
   name: neonesia-ksa
 

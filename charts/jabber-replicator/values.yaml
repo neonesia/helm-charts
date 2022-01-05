@@ -15,23 +15,12 @@ config:
   urlIRSDB: ""
   urlOTMDB: ""
   jabberAccounts: 
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-    - acct: "jabber-replicator:password"
-
-service:
-  type: ClusterIP
-  port: 8333
-  targetPort: 8333
-
-containerPort: 8333
+    - acct: "jabberix.com|node00@jabberix.com|N0d3Ch@n20220"
+    - acct: "jabberix.com|node01@jabberix.com|N0d3Ch@n20221"
+    - acct: "jabberix.com|node02@jabberix.com|N0d3Ch@n20222"
+    - acct: "jabberix.com|node03@jabberix.com|N0d3Ch@n20223"
+    - acct: "jabberix.com|node04@jabberix.com|N0d3Ch@n20224"
+    - acct: "jabberix.com|node05@jabberix.com|N0d3Ch@n20225"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
@@ -47,7 +36,3 @@ resources: {}
 
 autoscaling:
   enabled: false
-  minReplicas: 1
-  maxReplicas: 100
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80

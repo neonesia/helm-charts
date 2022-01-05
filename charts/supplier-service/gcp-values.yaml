@@ -13,4 +13,3 @@ config:
 
 serviceAccount:
   name: neonesia-ksa
-

@@ -10,8 +10,6 @@ image:
 config:
   urlNATS: "nats://node:m0DemN0de2o22@nats:4222"
   urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
-  addrGRPC: "localhost:8020"
-  isTLS: "false"
   groupNode: "KEPOO"
   queueSizeTask: "1000"
   queueSizeMobile:  "2000"

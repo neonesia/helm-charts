@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  namespace: {{ .Release.Namespace }}
+  creationTimestamp: 2021-09-16T00:00:00Z
+data:
+  NATS_URL: {{ .Values.config.urlNATS }}
+  DB_RUL: {{ .Values.config.urlDB }}
+  NODE_GROUP: {{ .Values.config.groupNode }}
+  MAX_USSD_TASK: {{ .Values.config.maxUSSDTask | quote }}
+  MAX_USSD_MOBILE: {{ .Values.config.maxUSSDMobile | quote }}
+  MAX_SEND_SMS: {{ .Values.config.maxMobile | quote }}
+  MAX_SEND_SMS_MOBILE: {{ .Values.config.maxSendSMSMobile | quote }}

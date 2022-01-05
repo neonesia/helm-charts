@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "report-batch.fullname" . }}
+  name: {{ include "isimple-manager.fullname" . }}
   labels:
-    {{- include "report-batch.labels" . | nindent 4 }}
+    {{- include "isimple-manager.labels" . | nindent 4 }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
   selector:
     matchLabels:
-      {{- include "report-batch.selectorLabels" . | nindent 6 }}
+      {{- include "isimple-manager.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
@@ -18,7 +18,7 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
-        {{- include "report-batch.selectorLabels" . | nindent 8 }}
+        {{- include "isimple-manager.selectorLabels" . | nindent 8 }}
     spec:
       {{- if .Values.isGCP }}
       serviceAccountName: {{ .Values.serviceAccount.name }}
@@ -27,6 +27,10 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: grpc
+              containerPort: {{ .Values.containerPort }}
+              protocol: TCP
           envFrom:
           - configMapRef:
               name: {{ .Release.Name }}-configmap

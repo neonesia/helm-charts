@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/backend-k8s-287402/order-batch
   pullPolicy: IfNotPresent
-  tag: "v0.1.0"
+  tag: "v0.0.1"
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
@@ -13,4 +13,3 @@ config:
 
 serviceAccount:
   name: neonesia-ksa
-
