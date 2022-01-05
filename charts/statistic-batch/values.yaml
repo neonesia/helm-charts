@@ -15,6 +15,8 @@ config:
   urlCRDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   urlSTATDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cr_stat?sslmode=disable"
 
+schedule: "0 0 20 ? * * *"
+
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
