@@ -15,22 +15,22 @@ spec:
           serviceAccountName: {{ .Values.serviceAccount.name }}
           {{- end }}
           containers:
-          - name: {{ .Chart.Name }}
-            image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
-            imagePullPolicy: {{ .Values.image.pullPolicy }}
-            envFrom:
-            - configMapRef:
-                name: {{ .Release.Name }}-configmap
-            resources:
-              {{- toYaml .Values.resources | nindent 12 }}
-          {{- if .Values.isGCP }}
-          - name: cloud-sql-proxy
-            image: gcr.io/cloudsql-docker/gce-proxy:latest
-            command:
-              - "/cloud_sql_proxy"
-              - "-ip_address_types=PRIVATE"
-              - "{{ .Values.sqlproxy.instances }}"
-            securityContext:
-              runAsNonRoot: true
-          {{- end }}
+            - name: {{ .Chart.Name }}
+              image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+              imagePullPolicy: {{ .Values.image.pullPolicy }}
+              envFrom:
+              - configMapRef:
+                  name: {{ .Release.Name }}-configmap
+              resources:
+                {{- toYaml .Values.resources | nindent 12 }}
+            {{- if .Values.isGCP }}
+            - name: cloud-sql-proxy
+              image: gcr.io/cloudsql-docker/gce-proxy:latest
+              command:
+                - "/cloud_sql_proxy"
+                - "-ip_address_types=PRIVATE"
+                - "{{ .Values.sqlproxy.instances }}"
+              securityContext:
+                runAsNonRoot: true
+            {{- end }}
           restartPolicy: OnFailure

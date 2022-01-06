@@ -14,6 +14,13 @@ config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
 
+service:
+  type: ClusterIP
+  port: 8880
+  targetPort: 8880
+
+containerPort: 8880
+
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
