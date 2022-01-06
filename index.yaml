@@ -249,6 +249,16 @@ entries:
   http-call:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-01-06T10:19:28.669261592Z"
+    description: A Helm chart for External HTTP Call
+    digest: dea365356c5277e802eee8886b7eeb6a51d4c2c6179335945d6f37923e5890ea
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.14/http-call-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2021-12-15T02:10:58.986637227Z"
     description: A Helm chart for External HTTP Call
     digest: 33bd76e65e591da801e6ddb8807040ef6a083998a650f4398a4e3c9a5c601980
@@ -1146,4 +1156,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-06T04:38:53.860170985Z"
+generated: "2022-01-06T10:19:28.669512153Z"
