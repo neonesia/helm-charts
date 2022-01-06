@@ -22,7 +22,7 @@ spec:
               - configMapRef:
                   name: {{ .Release.Name }}-configmap
               resources:
-                {{- toYaml .Values.resources | nindent 12 }}
+                {{- toYaml .Values.resources | nindent 16 }}
             {{- if .Values.isGCP }}
             - name: cloud-sql-proxy
               image: gcr.io/cloudsql-docker/gce-proxy:latest
