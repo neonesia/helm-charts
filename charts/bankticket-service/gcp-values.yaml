@@ -12,6 +12,7 @@ containerPort: 80
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlPOST: "http://bankticket-service/upload/json"
-
+  chanSizeNATS: "100"
+  
 serviceAccount:
   name: neonesia-ksa

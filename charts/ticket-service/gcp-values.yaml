@@ -13,6 +13,7 @@ config:
   urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/bank"
   diffTime: "25190"
   logLevel: "DEBUG"
-
+  chanSizeNATS: "100"
+  
 serviceAccount:
   name: neonesia-ksa

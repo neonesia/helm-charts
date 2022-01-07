@@ -13,7 +13,7 @@ serviceAccount:
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  chanSizeNATS: "10"
+  chanSizeNATS: "100"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

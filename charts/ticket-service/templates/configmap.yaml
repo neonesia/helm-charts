@@ -9,3 +9,4 @@ data:
   DB_URL: {{ .Values.config.urlDB }}
   TIME_DIFF: {{ .Values.config.diffTime }}
   LOG_LEVEL: {{ .Values.config.logLevel }}
+  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote }}    
