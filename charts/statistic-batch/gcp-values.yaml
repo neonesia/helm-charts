@@ -13,7 +13,7 @@ config:
   urlSTATDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5433/cloudreload"
 
 sqlproxy: 
-  instances: "-instances=backend-k8s-287402:asia-southeast2:pg-bank=tcp:5432,backend-k8s-287402:asia-southeast2:pg-keycloak=tcp:5433"
+  instances: "-instances=backend-k8s-287402:asia-southeast2:pg-bank=tcp:5432,backend-k8s-287402:asia-southeast2:pg-bank=tcp:5433"
   
 serviceAccount:
   name: neonesia-ksa

@@ -13,9 +13,9 @@ serviceAccount:
 config:            
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlCRDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  urlSTATDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cr_stat?sslmode=disable"
+  urlSTATDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
 
-schedule: "0 0 20 ? * * *"
+schedule: "0 20 * * *"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
