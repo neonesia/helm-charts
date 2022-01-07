@@ -9,7 +9,8 @@ image:
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-
+  chanSizeNATS: "100"
+  
 service:
   type: ClusterIP
   port: 8060

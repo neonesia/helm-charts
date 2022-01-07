@@ -14,6 +14,7 @@ config:
   whatsappID: "6285717742220@s.whatsapp.net"
   whatsappVer: "0,4,2088"
   logLevel: "DEBUG"
-
+  chanSizeNATS: "100"
+  
 serviceAccount:
   name: neonesia-ksa

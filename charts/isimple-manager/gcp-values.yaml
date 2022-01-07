@@ -13,7 +13,8 @@ config:
   groupNode: "KEPOO"
   queueSizeTask: "1000"
   queueSizeMobile:  "2000"
-
+  chanSizeNATS: "100"
+  
 service:
   type: ClusterIP
   port: 8020

@@ -12,6 +12,7 @@ config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"
   diffTime: "10"
   logLevel: "DEBUG"
+  chanSizeNATS: "100"  
 
 serviceAccount:
   name: ""

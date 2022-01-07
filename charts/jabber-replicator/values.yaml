@@ -12,6 +12,7 @@ serviceAccount:
 
 config:            
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
+  chanSizeNATS: "100"  
   urlIRSDB: ""
   urlOTMDB: ""
   jabberAccounts: 

@@ -9,7 +9,7 @@ image:
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  chanSizeNATS: 10
+  chanSizeNATS: "100"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

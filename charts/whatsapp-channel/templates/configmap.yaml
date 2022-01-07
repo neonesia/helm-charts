@@ -11,3 +11,4 @@ data:
   WHATSAPP_ID: {{ .Values.config.whatsappID }}
   WHATSAPP_VER: {{ .Values.config.whatsappVer }}
   LOG_LEVEL: {{ .Values.config.logLevel }}
+  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote }}    

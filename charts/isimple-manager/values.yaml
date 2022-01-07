@@ -18,7 +18,8 @@ config:
   maxUSSDMobile:  "1200"  # := NodeCount * USSDMobile
   maxSendSMS: "200"       # := NodeCount * SMSMobile
   maxSendSMSMobile: "200" # := NodeCount * SMSMobile
-
+  chanSizeNATS: "100"
+  
 service:
   type: ClusterIP
   port: 8020

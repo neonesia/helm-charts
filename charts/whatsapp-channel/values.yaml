@@ -17,6 +17,7 @@ config:
   whatsappID: "6285717742220@s.whatsapp.net"
   whatsappVer: "0,4,2088"
   logLevel: "DEBUG"
+  chanSizeNATS: "100"  
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
