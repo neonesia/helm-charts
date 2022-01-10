@@ -1174,6 +1174,16 @@ entries:
   supplier-service:
   - apiVersion: v2
     appVersion: v0.1.1
+    created: "2022-01-10T00:12:02.813077348Z"
+    description: A Helm chart for Supplier Information Service
+    digest: 9f7c90aebaa53d4c2e822c97e80ddd8fb97305e2c363f8c506775ba9f6afe13c
+    name: supplier-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/supplier-service-0.0.4/supplier-service-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: v0.1.1
     created: "2022-01-07T08:45:58.019913273Z"
     description: A Helm chart for Supplier Information Service
     digest: 2ab1685a80389a145f374339b472c8421d3dd6fe38f0de45190ef88b12f3a622
@@ -1376,4 +1386,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-07T08:45:58.613847765Z"
+generated: "2022-01-10T00:12:02.813356252Z"
