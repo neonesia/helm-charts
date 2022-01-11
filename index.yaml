@@ -643,6 +643,16 @@ entries:
   jabber-replicator:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-01-11T03:22:13.689135335Z"
+    description: A Helm chart for Jabber Replicator Service
+    digest: a44ce6d2ed06240e7ab4cc42bc661606ccc8e6a23bc7638a33bc1653791e7ea3
+    name: jabber-replicator
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-replicator-0.0.4/jabber-replicator-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-01-07T08:45:57.282643266Z"
     description: A Helm chart for Jabber Replicator Service
     digest: 1e328a80df4cd08132be58b1551f53c89003827d2357aadc1726cdde91906302
@@ -1386,4 +1396,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-10T00:12:02.813356252Z"
+generated: "2022-01-11T03:22:13.689377136Z"
