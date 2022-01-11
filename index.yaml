@@ -660,6 +660,16 @@ entries:
     version: 0.1.0
   isimple-manager:
   - apiVersion: v2
+    appVersion: v0.0.4
+    created: "2022-01-11T08:37:01.111541632Z"
+    description: A Helm chart for ISimple Manager
+    digest: 4a711b2182e0660129c16220d09a5086d88ae09bb5d58e511219ace4f0b25d2f
+    name: isimple-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.4/isimple-manager-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2022-01-07T08:45:57.000080462Z"
     description: A Helm chart for ISimple Manager
@@ -680,6 +690,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.1/isimple-manager-0.0.1.tgz
     version: 0.0.1
   jabber-channel:
+  - apiVersion: v2
+    appVersion: v0.0.8
+    created: "2022-01-11T08:37:01.301093087Z"
+    description: A Helm chart for Jabber Channel
+    digest: d794e34a69bd374887b8804fe3e70d01e8f996d372e1fc812eca56f6f32a630d
+    name: jabber-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.8/jabber-channel-0.1.8.tgz
+    version: 0.1.8
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2022-01-07T08:45:57.140496459Z"
@@ -783,6 +803,16 @@ entries:
     version: 0.0.2
   node-manager:
   - apiVersion: v2
+    appVersion: v0.0.8
+    created: "2022-01-11T08:37:01.622024152Z"
+    description: A Helm chart for Modem Node Manager
+    digest: c8e4c6a37c7850604fb77198a5f79c8d0e52923dfe55e7395703eacb576a6b47
+    name: node-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.8/node-manager-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2022-01-07T08:45:57.44142168Z"
     description: A Helm chart for Modem Node Manager
@@ -845,6 +875,16 @@ entries:
   order-batch:
   - apiVersion: v2
     appVersion: v0.1.2
+    created: "2022-01-11T08:37:01.925589065Z"
+    description: A Helm chart for Order Batch Process
+    digest: 2201da095fcb3e8ce109528b9185c2b028e24e117d8c3b96123203ff2d77cdcf
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.6/order-batch-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: v0.1.2
     created: "2022-01-11T08:15:27.856547319Z"
     description: A Helm chart for Order Batch Process
     digest: d1153bb08d0066ee62a9b698accf6efc9b2cf5dc7c82efc02e1044381c0649d4
@@ -874,6 +914,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.1/order-batch-0.0.1.tgz
     version: 0.0.1
   order-service:
+  - apiVersion: v2
+    appVersion: v0.1.7
+    created: "2022-01-11T08:37:02.14540556Z"
+    description: A Helm chart for Order Service
+    digest: 30058a4b57d6b0746603187d8ad1902f70d951cddc907fbe896f605a7c81854c
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.8/order-service-0.1.8.tgz
+    version: 0.1.8
   - apiVersion: v2
     appVersion: v0.1.7
     created: "2022-01-11T08:20:04.268772397Z"
@@ -945,6 +995,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.0/order-service-0.1.0.tgz
     version: 0.1.0
   product-service:
+  - apiVersion: v2
+    appVersion: v0.1.8
+    created: "2022-01-11T08:37:02.381238689Z"
+    description: A Helm chart for Product Service
+    digest: 7836d91143623012d0f267e5518f61a2b36bb31c64d8deb2044d68b443d397cf
+    name: product-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.9/product-service-0.1.9.tgz
+    version: 0.1.9
   - apiVersion: v2
     appVersion: v0.1.8
     created: "2022-01-11T08:20:04.488127984Z"
@@ -1566,4 +1626,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-11T08:33:06.133028348Z"
+generated: "2022-01-11T08:37:02.381682395Z"
