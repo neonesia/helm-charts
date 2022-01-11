@@ -1132,6 +1132,16 @@ entries:
     version: 0.1.0
   statistic-batch:
   - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2022-01-11T08:02:56.589170778Z"
+    description: A Helm chart for Statistic Batch
+    digest: 3739abebf386660761ae2d302e965f77dd6127140767e68a98bbdacfec31b798
+    name: statistic-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/statistic-batch-0.0.11/statistic-batch-0.0.11.tgz
+    version: 0.0.11
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2022-01-07T06:23:00.208615174Z"
     description: A Helm chart for Statistic Batch
@@ -1416,4 +1426,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-11T07:35:07.275299546Z"
+generated: "2022-01-11T08:02:56.589465144Z"
