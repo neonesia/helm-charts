@@ -948,6 +948,16 @@ entries:
     version: 0.0.2
   reseller-service:
   - apiVersion: v2
+    appVersion: v0.1.3
+    created: "2022-01-11T08:05:17.378424055Z"
+    description: A Helm chart for Reseller Service
+    digest: 09c49f14d1486b74d6e44acd3a778d7c15aa325010587e7645bb0b3b19e09cd2
+    name: reseller-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/reseller-service-0.1.8/reseller-service-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
     appVersion: v0.1.1
     created: "2022-01-07T08:45:57.876145756Z"
     description: A Helm chart for Reseller Service
@@ -1426,4 +1436,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-11T08:02:56.589465144Z"
+generated: "2022-01-11T08:05:17.378725157Z"
