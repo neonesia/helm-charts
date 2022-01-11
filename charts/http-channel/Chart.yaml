@@ -3,4 +3,4 @@ name: http-channel
 description: A Helm chart for Http Channel
 type: application
 version: 0.1.8
-appVersion: "v0.1.2"
+appVersion: "v0.1.8"
