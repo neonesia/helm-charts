@@ -75,6 +75,16 @@ entries:
   billing-service:
   - apiVersion: v2
     appVersion: v0.1.2
+    created: "2022-01-11T08:08:56.793478808Z"
+    description: A Helm chart for Billing Service
+    digest: 3c46a93666a4b2c1339a7434b187507c581d517b956ded3b9c2abf103aaa7a99
+    name: billing-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.9/billing-service-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: v0.1.2
     created: "2022-01-07T08:45:55.984421178Z"
     description: A Helm chart for Billing Service
     digest: bad801d7e6e89d18f1f132546b703fa3ac8d7e6a7f47ba54d2b555445084ff80
@@ -1436,4 +1446,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-11T08:05:17.378725157Z"
+generated: "2022-01-11T08:08:56.793774612Z"
