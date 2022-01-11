@@ -7,9 +7,6 @@ image:
   pullPolicy: IfNotPresent
   tag: "v0.0.1"
 
-serviceAccount:
-  name: ""
-
 config:
   urlNATS: "nats://node:m0DemN0de2o22@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
@@ -19,13 +16,12 @@ config:
   maxSendSMS: "200"       # := NodeCount * SMSMobile
   maxSendSMSMobile: "200" # := NodeCount * SMSMobile
   chanSizeNATS: "100"
-  
-service:
-  type: ClusterIP
-  port: 8020
-  targetPort: 8020
 
-containerPort: 8020
+serviceAccount:
+  name: ""
+
+sqlproxy: 
+  instances: ""
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

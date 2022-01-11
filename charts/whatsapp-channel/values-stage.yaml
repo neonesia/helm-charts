@@ -1,0 +1,23 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/cloudreload/whatsapp-channel
+  pullPolicy: IfNotPresent
+  tag: "v0.0.2"
+
+config:
+  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
+  sbjNATS: "whatsapp.>"
+  urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
+  whatsappID: "6285717742220@s.whatsapp.net"
+  whatsappVer: "0,4,2088"
+  logLevel: "DEBUG"
+  chanSizeNATS: "100"
+  
+sqlproxy: 
+  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
+
+serviceAccount:
+  name: neonesia-ksa

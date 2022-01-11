@@ -1,0 +1,20 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/cloudreload/report-batch
+  pullPolicy: IfNotPresent
+  tag: "v0.0.1"
+
+config:
+  urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
+
+sqlproxy: 
+  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
+
+schedule: "0 21 * * *"
+
+serviceAccount:
+  name: neonesia-ksa
+

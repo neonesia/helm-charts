@@ -3,7 +3,7 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/backend-k8s-287402/jabber-channel
+  repository: asia.gcr.io/cloudreload/jabber-channel
   pullPolicy: IfNotPresent
   tag: "v0.0.1"
 

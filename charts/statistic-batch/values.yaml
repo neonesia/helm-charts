@@ -7,13 +7,15 @@ image:
   pullPolicy: IfNotPresent
   tag: "latest"
 
+config:            
+  urlCRDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
+  urlSTATDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
+
 serviceAccount:
   name: ""
 
-config:            
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  urlCRDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  urlSTATDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
+sqlproxy: 
+  instances: ""
 
 schedule: "0 20 * * *"
 

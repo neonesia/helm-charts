@@ -27,10 +27,6 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          ports:
-            - name: grpc
-              containerPort: {{ .Values.containerPort }}
-              protocol: TCP
           envFrom:
           - configMapRef:
               name: {{ .Release.Name }}-configmap
@@ -42,7 +38,7 @@ spec:
           command:
             - "/cloud_sql_proxy"
             - "-ip_address_types=PRIVATE"
-            - "-instances=backend-k8s-287402:asia-southeast2:pg-bank=tcp:5432"
+            - "{{ .Values.sqlproxy.instances }}"
           securityContext:
             runAsNonRoot: true
         {{- end }}

@@ -3,7 +3,7 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/backend-k8s-287402/h3i-channel
+  repository: asia.gcr.io/cloudreload/h3i-channel
   pullPolicy: IfNotPresent
   tag: "v0.0.14"
 

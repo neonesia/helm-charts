@@ -7,20 +7,23 @@ image:
   pullPolicy: IfNotPresent
   tag: "latest"
 
-serviceAccount:
-  name: ""
-
 config:            
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   chanSizeNATS: "100"
-  
+
+serviceAccount:
+  name: ""
+
+sqlproxy: 
+  instances: ""
+
 service:
   type: ClusterIP
-  port: 8333
-  targetPort: 8333
+  port: 8010
+  targetPort: 8010
 
-containerPort: 8333
+containerPort: 8010
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

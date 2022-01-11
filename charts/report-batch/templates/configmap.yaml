@@ -5,5 +5,4 @@ metadata:
   namespace: {{ .Release.Namespace }}
   creationTimestamp: 2021-09-16T00:00:00Z
 data:
-  NATS_URL: {{ .Values.config.urlNATS }}
   DB_URL:  {{ .Values.config.urlDB }}

@@ -7,13 +7,16 @@ image:
   pullPolicy: IfNotPresent
   tag: "v0.1.1"
 
-serviceAccount:
-  name: ""
-
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   chanSizeNATS: "100"
+
+serviceAccount:
+  name: ""
+
+sqlproxy: 
+  instances: ""
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
@@ -29,7 +32,3 @@ resources: {}
 
 autoscaling:
   enabled: false
-  minReplicas: 1
-  maxReplicas: 100
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80

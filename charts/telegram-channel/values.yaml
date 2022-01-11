@@ -7,15 +7,18 @@ image:
   pullPolicy: IfNotPresent
   tag: "v0.0.1"
 
-serviceAccount:
-  name: ""
-
 config:
   urlNATS: "nats://legacy:legacy2020@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"
   botName: "TG-TEST-KEPOO"
   botVer: "1"
   chanSizeNATS: "100"
+
+serviceAccount:
+  name: ""
+
+sqlproxy: 
+  instances: ""
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

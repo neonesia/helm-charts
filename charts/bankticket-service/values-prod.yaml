@@ -7,12 +7,21 @@ image:
   pullPolicy: IfNotPresent
   tag: "v0.0.1"
 
-containerPort: 80
-
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
+  urlDB: "postgres://service01:SvcN2one1A01Prod@127.0.0.1:5432/cloudreload"
   urlPOST: "http://bankticket-service/upload/json"
   chanSizeNATS: "100"
-  
+
+sqlproxy: 
+  instances: "-instances=cloudreload:asia-southeast2:crp-prod00=tcp:5432"
+
+service:
+  type: ClusterIP
+  port: 8040
+  targetPort: 8040
+
+containerPort: 8040
+
 serviceAccount:
   name: neonesia-ksa

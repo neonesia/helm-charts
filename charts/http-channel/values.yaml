@@ -10,7 +10,10 @@ image:
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   chanSizeNATS: "100"
-  
+
+serviceAccount:
+  name: ""
+
 service:
   type: ClusterIP
   port: 8060
@@ -33,7 +36,3 @@ resources:
 
 autoscaling:
   enabled: false
-  minReplicas: 1
-  maxReplicas: 100
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80

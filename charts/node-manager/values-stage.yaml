@@ -3,24 +3,20 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/backend-k8s-287402/node-manager
+  repository: asia.gcr.io/cloudreload/node-manager
   pullPolicy: IfNotPresent
   tag: "v0.0.1"
 
 config:
   urlNATS: "nats://node:m0DemN0de2o22@nats:4222"
-  urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
+  urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
   groupNode: "KEPOO"
   queueSizeTask: "1000"
   queueSizeMobile:  "2000"
   chanSizeNATS: "100"
   
-service:
-  type: ClusterIP
-  port: 8020
-  targetPort: 8020
-
-containerPort: 8020
+sqlproxy: 
+  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
 
 serviceAccount:
   name: neonesia-ksa

@@ -42,7 +42,7 @@ spec:
           command:
             - "/cloud_sql_proxy"
             - "-ip_address_types=PRIVATE"
-            - "-instances=backend-k8s-287402:asia-southeast2:pg-bank=tcp:5432"
+            - "{{ .Values.sqlproxy.instances }}"
           securityContext:
             runAsNonRoot: true
         {{- end }}

@@ -1,0 +1,19 @@
+isGCP: true
+
+replicaCount: 1
+
+image:
+  repository: asia.gcr.io/cloudreload/reseller-service
+  pullPolicy: IfNotPresent
+  tag: "v0.1.1"
+
+config:
+  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
+  urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
+  chanSizeNATS: "100"
+
+sqlproxy: 
+  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
+
+serviceAccount:
+  name: neonesia-ksa

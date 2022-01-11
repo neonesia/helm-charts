@@ -8,12 +8,18 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v0.0.14"
 
-podAnnotations: 
-  sidecar.istio.io/inject: "false"
+#podAnnotations: 
+#  sidecar.istio.io/inject: "false"
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   chanSizeNATS: "100"
+
+serviceAccount:
+  name: ""
+
+sqlproxy: 
+  instances: ""
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

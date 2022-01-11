@@ -3,15 +3,20 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/backend-k8s-287402/notice-service
+  repository: asia.gcr.io/cloudreload/http-channel
   pullPolicy: IfNotPresent
-  tag: "v0.0.1"
+  tag: "v0.1.1"
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/cloudreload"
   chanSizeNATS: "100"
   
+service:
+  type: ClusterIP
+  port: 8060
+  targetPort: 8060
+
+containerPort: 8060
+
 serviceAccount:
   name: neonesia-ksa
-

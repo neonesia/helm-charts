@@ -7,9 +7,6 @@ image:
   pullPolicy: IfNotPresent
   tag: "latest"
 
-serviceAccount:
-  name: ""
-
 config:            
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   chanSizeNATS: "100"  
@@ -22,6 +19,12 @@ config:
     - acct: "jabberix.com|node03@jabberix.com|N0d3Ch@n20223"
     - acct: "jabberix.com|node04@jabberix.com|N0d3Ch@n20224"
     - acct: "jabberix.com|node05@jabberix.com|N0d3Ch@n20225"
+
+serviceAccount:
+  name: ""
+
+sqlproxy: 
+  instances: ""
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

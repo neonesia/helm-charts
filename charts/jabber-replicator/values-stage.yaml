@@ -24,6 +24,9 @@ config:
     - acct: "jabber-replicator:password"
     - acct: "jabber-replicator:password"
 
+sqlproxy: 
+  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
+
 serviceAccount:
   name: neonesia-ksa
 
