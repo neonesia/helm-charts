@@ -75,16 +75,6 @@ entries:
   billing-service:
   - apiVersion: v2
     appVersion: v0.1.2
-    created: "2022-01-11T07:32:57.833065933Z"
-    description: A Helm chart for Billing Service
-    digest: 6069c985c4198393be4465afb73078c44095c114018653856c40e4b45b827910
-    name: billing-service
-    type: application
-    urls:
-    - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.8/billing-service-0.1.8.tgz
-    version: 0.1.8
-  - apiVersion: v2
-    appVersion: v0.1.2
     created: "2022-01-07T08:45:55.984421178Z"
     description: A Helm chart for Billing Service
     digest: bad801d7e6e89d18f1f132546b703fa3ac8d7e6a7f47ba54d2b555445084ff80
@@ -754,6 +744,16 @@ entries:
     version: 0.1.0
   order-batch:
   - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2022-01-11T07:33:15.338811059Z"
+    description: A Helm chart for Order Batch Process
+    digest: dea8116c48a62cfbd0a67e79039546f317fc143ccc726b4911c20c941fcbadba
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.4/order-batch-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2022-01-06T04:18:28.282963244Z"
     description: A Helm chart for Order Batch Process
@@ -1416,4 +1416,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-11T07:32:57.833428135Z"
+generated: "2022-01-11T07:33:15.339082365Z"
