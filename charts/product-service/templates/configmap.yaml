@@ -7,4 +7,4 @@ metadata:
 data:
   NATS_URL: {{ .Values.config.urlNATS }}
   DB_URL:  {{ .Values.config.urlDB }}
-  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS }}
+  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote }}

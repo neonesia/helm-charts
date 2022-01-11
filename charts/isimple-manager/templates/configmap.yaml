@@ -8,8 +8,8 @@ data:
   NATS_URL: {{ .Values.config.urlNATS }}
   DB_RUL: {{ .Values.config.urlDB }}
   NODE_GROUP: {{ .Values.config.groupNode }}
-  MAX_USSD_TASK: {{ .Values.config.maxUSSDTask }}
-  MAX_USSD_MOBILE: {{ .Values.config.maxUSSDMobile }}
-  MAX_SEND_SMS: {{ .Values.config.maxMobile }}
-  MAX_SEND_SMS_MOBILE: {{ .Values.config.maxSendSMSMobile }}
-  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS }}
+  MAX_USSD_TASK: {{ .Values.config.maxUSSDTask | quote }}
+  MAX_USSD_MOBILE: {{ .Values.config.maxUSSDMobile | quote }}
+  MAX_SEND_SMS: {{ .Values.config.maxMobile | quote }}
+  MAX_SEND_SMS_MOBILE: {{ .Values.config.maxSendSMSMobile | quote }}
+  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote }}
