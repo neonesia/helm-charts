@@ -744,16 +744,6 @@ entries:
     version: 0.1.0
   order-batch:
   - apiVersion: v2
-    appVersion: v0.1.1
-    created: "2022-01-11T07:33:15.338811059Z"
-    description: A Helm chart for Order Batch Process
-    digest: dea8116c48a62cfbd0a67e79039546f317fc143ccc726b4911c20c941fcbadba
-    name: order-batch
-    type: application
-    urls:
-    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.4/order-batch-0.0.4.tgz
-    version: 0.0.4
-  - apiVersion: v2
     appVersion: v0.0.1
     created: "2022-01-06T04:18:28.282963244Z"
     description: A Helm chart for Order Batch Process
@@ -1143,6 +1133,16 @@ entries:
   statistic-batch:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-01-11T07:34:06.015368543Z"
+    description: A Helm chart for Statistic Batch
+    digest: 62da1c39361fe5f628c4d9f99c9751a888467a62a4aa70f10aea2c11a2c016a0
+    name: statistic-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/statistic-batch-0.0.10/statistic-batch-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-01-07T06:23:00.208615174Z"
     description: A Helm chart for Statistic Batch
     digest: d05d46e84b8d8100d017b2da24da4e70accb502999cd93e50982b1e2c2264f90
@@ -1416,4 +1416,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-11T07:33:15.339082365Z"
+generated: "2022-01-11T07:34:06.015644961Z"
