@@ -6,6 +6,7 @@ metadata:
     {{- include "statistic-batch.labels" . | nindent 4 }}
 spec:
   schedule: {{ .Values.schedule }}
+  concurrencyPolicy: Replace  
   successfulJobsHistoryLimit: 0  
   jobTemplate:
     spec:
