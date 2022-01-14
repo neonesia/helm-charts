@@ -4,17 +4,18 @@ metadata:
   name: {{ include "statistic-batch.fullname" . }}
   labels:
     {{- include "statistic-batch.labels" . | nindent 4 }}
+
 spec:
   template:
-    metadata:
-      annotations:
-        sidecar.istio.io/inject: "false"
   schedule: {{ .Values.schedule }}
   concurrencyPolicy: Replace  
   successfulJobsHistoryLimit: 0  
   jobTemplate:
     spec:
       template:
+        metadata:
+          annotations:
+            sidecar.istio.io/inject: "false"      
         spec:
           {{- if .Values.isGCP }}
           serviceAccountName: {{ .Values.serviceAccount.name }}
