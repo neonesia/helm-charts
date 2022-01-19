@@ -95,6 +95,16 @@ entries:
   billing-service:
   - apiVersion: v2
     appVersion: v0.1.10
+    created: "2022-01-19T07:47:50.777192365Z"
+    description: A Helm chart for Billing Service
+    digest: 4b3068014c36abe609c3119a93174c611bbf666090be6afce72b1923d7890999
+    name: billing-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.11/billing-service-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: v0.1.10
     created: "2022-01-11T08:33:05.116177506Z"
     description: A Helm chart for Billing Service
     digest: 35d503857bd2c3e2c6b33df8a099966e7f7d2507998463b73c033dfcf5994678
@@ -195,6 +205,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/chrome-neonesia-0.1.0/chrome-neonesia-0.1.0.tgz
     version: 0.1.0
   config-service:
+  - apiVersion: v2
+    appVersion: v0.1.12
+    created: "2022-01-19T07:47:50.918364991Z"
+    description: A Helm chart for Config Information Service
+    digest: 7d700a0005834e9d35eecdf0d02aa10d8f47af8ccff66babf584a9e347a6dbf7
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.13/config-service-0.1.13.tgz
+    version: 0.1.13
   - apiVersion: v2
     appVersion: v0.1.12
     created: "2022-01-11T08:33:05.319215025Z"
@@ -875,6 +895,16 @@ entries:
   order-batch:
   - apiVersion: v2
     appVersion: v0.1.2
+    created: "2022-01-19T07:47:51.068566727Z"
+    description: A Helm chart for Order Batch Process
+    digest: 5a45958689ed22d3b0c4268b0c4c4dedf79f33624449036b2d322b84dcfa10a3
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.7/order-batch-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: v0.1.2
     created: "2022-01-11T08:37:01.925589065Z"
     description: A Helm chart for Order Batch Process
     digest: 2201da095fcb3e8ce109528b9185c2b028e24e117d8c3b96123203ff2d77cdcf
@@ -1078,6 +1108,16 @@ entries:
   report-batch:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-01-19T07:47:51.219009866Z"
+    description: A Helm chart for Report Batch
+    digest: 0c779984b0b229c03628b325b57e3c7420f45f8c427ed5f045637ae32e91e0c1
+    name: report-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/report-batch-0.0.11/report-batch-0.0.11.tgz
+    version: 0.0.11
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-01-13T00:50:07.314141806Z"
     description: A Helm chart for Report Batch
     digest: d86f05c2729d773f573b0c2b6e5e0571a9cea58d5ad833c28ebd008c016f5ab0
@@ -1147,6 +1187,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/report-batch-0.0.2/report-batch-0.0.2.tgz
     version: 0.0.2
   reseller-service:
+  - apiVersion: v2
+    appVersion: v0.1.4
+    created: "2022-01-19T07:47:51.378427114Z"
+    description: A Helm chart for Reseller Service
+    digest: 24d62a4fcdf03e356dd3f8c9670ac600873991a608a994ea4f27197b6cbf9e03
+    name: reseller-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/reseller-service-0.1.10/reseller-service-0.1.10.tgz
+    version: 0.1.10
   - apiVersion: v2
     appVersion: v0.1.4
     created: "2022-01-11T08:39:35.983972657Z"
@@ -1353,6 +1403,16 @@ entries:
   statistic-batch:
   - apiVersion: v2
     appVersion: v0.1.1
+    created: "2022-01-19T07:47:51.538616572Z"
+    description: A Helm chart for Statistic Batch
+    digest: 09698509cc90eb37dcfe82cc4ff45ea85cd6e30c8b9acbea463fbee05aed0608
+    name: statistic-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/statistic-batch-0.0.15/statistic-batch-0.0.15.tgz
+    version: 0.0.15
+  - apiVersion: v2
+    appVersion: v0.1.1
     created: "2022-01-14T01:11:31.76148739Z"
     description: A Helm chart for Statistic Batch
     digest: a1325737f74b7c62c27d24968c7cc8eccd2fecce15d7a50f3483e6a2e2ec51a8
@@ -1452,6 +1512,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/statistic-batch-0.0.3/statistic-batch-0.0.3.tgz
     version: 0.0.3
   supplier-service:
+  - apiVersion: v2
+    appVersion: v0.1.3
+    created: "2022-01-19T07:47:51.720676297Z"
+    description: A Helm chart for Supplier Information Service
+    digest: 7b82398d52de8e2eca49296736c870e02f30204443056e057c7cb204b3bc37ff
+    name: supplier-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/supplier-service-0.0.8/supplier-service-0.0.8.tgz
+    version: 0.0.8
   - apiVersion: v2
     appVersion: v0.1.3
     created: "2022-01-11T08:39:36.180429106Z"
@@ -1716,4 +1786,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-14T01:11:31.762161689Z"
+generated: "2022-01-19T07:47:51.721765511Z"
