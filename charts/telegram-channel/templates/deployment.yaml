@@ -43,4 +43,11 @@ spec:
             - "{{ .Values.sqlproxy.instances }}"
           securityContext:
             runAsNonRoot: true
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "50Mi"
+            limits:
+              cpu: "100m"
+              memory: "100Mi"
         {{- end }}
