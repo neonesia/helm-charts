@@ -3,6 +3,16 @@ entries:
   bank-collector:
   - apiVersion: v2
     appVersion: v0.0.6
+    created: "2022-01-20T08:14:20.176118151Z"
+    description: A Helm chart for Bank Collector
+    digest: cd5a5167a0584e341a10aa4ea88424664ee7c46b56f27b190657c5b42b5e2bf1
+    name: bank-collector
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.7/bank-collector-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: v0.0.6
     created: "2022-01-11T08:33:04.702468356Z"
     description: A Helm chart for Bank Collector
     digest: bce4dda10ce157ee6aa23178a62ca51f9ba5e49f4c3aade364d0cc8021255396
@@ -62,6 +72,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.0/bank-collector-0.1.0.tgz
     version: 0.1.0
   bankticket-service:
+  - apiVersion: v2
+    appVersion: v0.0.5
+    created: "2022-01-20T08:14:20.330322495Z"
+    description: A Helm chart for BankTicket Service
+    digest: 7ce71684b2d92ce9e0795334792d3544055eab446f6ad726efbdb926a684e8ec
+    name: bankticket-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bankticket-service-0.0.6/bankticket-service-0.0.6.tgz
+    version: 0.0.6
   - apiVersion: v2
     appVersion: v0.0.5
     created: "2022-01-11T08:33:04.903028807Z"
@@ -327,6 +347,16 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-01-20T08:14:20.511607349Z"
+    description: A Helm chart for Config Information Service
+    digest: 5292be8bb3c7e136b744a09d0f7b0e8c3eff605a07fe0928fb05a3e89c0ea873
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.0.4/config-service-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-01-07T08:45:56.256917818Z"
     description: A Helm chart for Config Information Service
     digest: b0926e7e654f85d094cf3db7b1766dcb65bee9547ac0774ebb5ed31194f17980
@@ -397,6 +427,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/h3i-channel-0.1.0/h3i-channel-0.1.0.tgz
     version: 0.1.0
   http-call:
+  - apiVersion: v2
+    appVersion: v0.1.18
+    created: "2022-01-20T08:14:20.693268613Z"
+    description: A Helm chart for External HTTP Call
+    digest: ac89603ef809d14add41e641fd22724f3d52fb627e05aa105795dccc0fa40c2a
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.19/http-call-0.1.19.tgz
+    version: 0.1.19
   - apiVersion: v2
     appVersion: v0.1.18
     created: "2022-01-11T08:33:05.721064546Z"
@@ -580,6 +620,16 @@ entries:
   http-channel:
   - apiVersion: v2
     appVersion: v0.1.10
+    created: "2022-01-20T08:14:20.876507618Z"
+    description: A Helm chart for Http Channel
+    digest: d10de4a59ab3a28d5f29198f5fb26f903917d05848067825160f9434ca95feb1
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.11/http-channel-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: v0.1.10
     created: "2022-01-11T08:33:06.132571435Z"
     description: A Helm chart for Http Channel
     digest: 8e4c05eba0f2a7347c28549b5e63194182c61739543b4fef3106a6dfe45fe974
@@ -681,6 +731,16 @@ entries:
   isimple-manager:
   - apiVersion: v2
     appVersion: v0.0.4
+    created: "2022-01-20T08:14:21.035959Z"
+    description: A Helm chart for ISimple Manager
+    digest: 4d19028d03c7762b0afbc3d73b01e0b6162f3549c395d1a5952fbdbe6951756c
+    name: isimple-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.5/isimple-manager-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: v0.0.4
     created: "2022-01-11T08:37:01.111541632Z"
     description: A Helm chart for ISimple Manager
     digest: 4a711b2182e0660129c16220d09a5086d88ae09bb5d58e511219ace4f0b25d2f
@@ -710,6 +770,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.1/isimple-manager-0.0.1.tgz
     version: 0.0.1
   jabber-channel:
+  - apiVersion: v2
+    appVersion: v0.0.8
+    created: "2022-01-20T08:14:21.223344014Z"
+    description: A Helm chart for Jabber Channel
+    digest: a619997d2f3de2f6d05f4aaa4fc67128c911b24b945e21bb871efa7191e9fc65
+    name: jabber-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.9/jabber-channel-0.1.9.tgz
+    version: 0.1.9
   - apiVersion: v2
     appVersion: v0.0.8
     created: "2022-01-11T08:37:01.301093087Z"
@@ -822,6 +892,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/jabber-replicator-0.0.2/jabber-replicator-0.0.2.tgz
     version: 0.0.2
   node-manager:
+  - apiVersion: v2
+    appVersion: v0.0.8
+    created: "2022-01-20T08:14:21.38142856Z"
+    description: A Helm chart for Modem Node Manager
+    digest: a10f86012eeffdb475ec14dea851ff4d690bce41b43d7a74b125a979e11e1aca
+    name: node-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.9/node-manager-0.1.9.tgz
+    version: 0.1.9
   - apiVersion: v2
     appVersion: v0.0.8
     created: "2022-01-11T08:37:01.622024152Z"
@@ -946,6 +1026,16 @@ entries:
   order-service:
   - apiVersion: v2
     appVersion: v0.1.7
+    created: "2022-01-20T08:14:21.541871367Z"
+    description: A Helm chart for Order Service
+    digest: 2e5316dc6cfe6ec264a61bf039189157ddbf196f71d4552c6c67314b8d53712b
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.9/order-service-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: v0.1.7
     created: "2022-01-11T08:37:02.14540556Z"
     description: A Helm chart for Order Service
     digest: 30058a4b57d6b0746603187d8ad1902f70d951cddc907fbe896f605a7c81854c
@@ -1025,6 +1115,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.0/order-service-0.1.0.tgz
     version: 0.1.0
   product-service:
+  - apiVersion: v2
+    appVersion: v0.1.8
+    created: "2022-01-20T08:14:21.726498709Z"
+    description: A Helm chart for Product Service
+    digest: add12f0e98c0b32d8c19f4458cd965c311ae7bc915435090be963bf3b4512eae
+    name: product-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.10/product-service-0.1.10.tgz
+    version: 0.1.10
   - apiVersion: v2
     appVersion: v0.1.8
     created: "2022-01-11T08:37:02.381238689Z"
@@ -1575,6 +1675,16 @@ entries:
   telegram-channel:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-01-20T08:14:21.888334953Z"
+    description: A Helm chart for Telegram Messenger Channel
+    digest: 630a51a010179d8994e14f010347c8d104ac097aa52174d32d654f07884cfb5c
+    name: telegram-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/telegram-channel-0.1.8/telegram-channel-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-01-11T08:39:36.372652305Z"
     description: A Helm chart for Telegram Messenger Channel
     digest: 6840a2ad2211daf31870039477ce9723172edda4c65e0054c29f8dfd60d0bcf7
@@ -1757,6 +1867,16 @@ entries:
     version: 0.1.0
   xsell-service:
   - apiVersion: v2
+    appVersion: v0.0.5
+    created: "2022-01-20T08:14:22.082932857Z"
+    description: A Helm chart for Croselling Service
+    digest: 061016739dd5ddf5c5a021dbe370d4d40cf892a78a3385ce6f8e7f808663e9f0
+    name: xsell-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.5/xsell-service-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
     appVersion: v0.0.4
     created: "2022-01-11T08:39:36.754687877Z"
     description: A Helm chart for Croselling Service
@@ -1786,4 +1906,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-19T07:47:51.721765511Z"
+generated: "2022-01-20T08:14:22.083556473Z"
