@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/cloudreload/order-service
   pullPolicy: IfNotPresent
-  tag: "v0.2.14"
+  tag: "v0.2.15"
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
