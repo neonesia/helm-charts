@@ -8,12 +8,11 @@ image:
   tag: "v0.1.0"
 
 config:
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
-  chanSizeNATS: "100"
+  urlDB: "postgres://service01:SvcN2one1A01Stage@10.61.112.3:5432/cloudreload"
+  kafkaBrokers:
+  - "redpanda:9093"
+  kafkaChanSize: "100"
 
-sqlproxy: 
-  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
 
 service:
   type: ClusterIP
@@ -24,3 +23,19 @@ containerPort: 8010
 
 serviceAccount:
   name: neonesia-ksa
+
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+#  sidecar.istio.io/proxyCPU: "100m"
+#  sidecar.istio.io/proxyMemory: "128Mi"
+
+resources: 
+  requests:
+    cpu: 10m
+    memory: 128Mi
+  limits:
+    cpu: 100m
+    memory: 128Mi
+
+autoscaling:
+  enabled: false
