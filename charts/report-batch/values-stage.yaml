@@ -8,7 +8,7 @@ image:
   tag: "v0.0.1"
 
 config:
-  urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
+  urlDB: "postgres://service01:SvcN2one1A01Stage@10.61.112.3:5432/cloudreload"
 
 sqlproxy: 
   instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"

@@ -9,7 +9,7 @@ image:
 
 config:
   urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
+  urlDB: "postgres://service01:SvcN2one1A01Stage@10.61.112.3:5432/cloudreload"
   chanSizeNATS: "100"
   kafkaBrokers:
   - "redpanda:9093"
