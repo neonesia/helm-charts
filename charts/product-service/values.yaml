@@ -16,6 +16,9 @@ config:
   - "redpanda:9093"
   kafkaChanSize: "100"
 
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
 serviceAccount:
   name: ""
 

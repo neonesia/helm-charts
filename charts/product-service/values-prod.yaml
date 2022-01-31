@@ -15,6 +15,9 @@ config:
   - "redpanda:9093"
   kafkaChanSize: "100"
 
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
 sqlproxy: 
   instances: "-instances=cloudreload:asia-southeast2:crp-prod00=tcp:5432"
 
