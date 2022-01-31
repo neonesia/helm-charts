@@ -12,6 +12,9 @@ config:
   urlDB: "postgres://service01:SvcN2one1A01Prod@127.0.0.1:5432/cloudreload"
   chanSizeNATS: "100"
 
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
 sqlproxy: 
   instances: "-instances=cloudreload:asia-southeast2:crp-prod00=tcp:5432"
 
@@ -22,7 +25,6 @@ service:
   kafkaBrokers:
   - "redpanda:9093"
   kafkaChanSize: "100"
-
 
 containerPort: 8020
 
