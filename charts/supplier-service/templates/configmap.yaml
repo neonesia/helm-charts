@@ -8,3 +8,8 @@ data:
   NATS_URL: {{ .Values.config.urlNATS }}
   DB_URL:  {{ .Values.config.urlDB }}
   NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote }}
+  KAFKA_BROKERS: 
+  {{- range .Values.config.kafkaBrokers }}
+  - {{ . }}
+  {{- end }}
+  KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChhanSize | quote }}
