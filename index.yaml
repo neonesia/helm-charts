@@ -227,6 +227,16 @@ entries:
   config-service:
   - apiVersion: v2
     appVersion: v0.1.12
+    created: "2022-01-31T00:04:50.0179349Z"
+    description: A Helm chart for Config Information Service
+    digest: 14a6ff9aa760d37e9187496d15ecee637d4ff3dff527271f5a9a8a238eb2b9cc
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.16/config-service-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
+    appVersion: v0.1.12
     created: "2022-01-19T07:47:50.918364991Z"
     description: A Helm chart for Config Information Service
     digest: 7d700a0005834e9d35eecdf0d02aa10d8f47af8ccff66babf584a9e347a6dbf7
@@ -429,6 +439,16 @@ entries:
   http-call:
   - apiVersion: v2
     appVersion: v0.1.18
+    created: "2022-01-31T00:04:50.179153401Z"
+    description: A Helm chart for External HTTP Call
+    digest: 0b4b5acbbfc51e3a1202e86e10050844bb2ed28e9c2a0db4105118fd37e2f46f
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.21/http-call-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
+    appVersion: v0.1.18
     created: "2022-01-28T06:26:35.503810904Z"
     description: A Helm chart for External HTTP Call
     digest: 8aeeca0eed817669e2481f1c70c13cbd33c89c25e8e220446dbf1e3c6cffafea
@@ -628,6 +648,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.0/http-call-0.1.0.tgz
     version: 0.1.0
   http-channel:
+  - apiVersion: v2
+    appVersion: v0.1.10
+    created: "2022-01-31T00:04:50.337074352Z"
+    description: A Helm chart for Http Channel
+    digest: ff17a98b2b767e9e1d3cc4f463337287089507c06fdf6eb36edcafe7e6424a28
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.12/http-channel-0.1.12.tgz
+    version: 0.1.12
   - apiVersion: v2
     appVersion: v0.1.10
     created: "2022-01-20T08:14:20.876507618Z"
@@ -983,6 +1013,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.0/node-manager-0.1.0.tgz
     version: 0.1.0
   order-batch:
+  - apiVersion: v2
+    appVersion: v0.1.2
+    created: "2022-01-31T00:04:50.484077141Z"
+    description: A Helm chart for Order Batch Process
+    digest: dcea9e749fd21661a8789f5336cb10506a1ca38ee01c58635d8f72c7fd9a90b3
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.9/order-batch-0.0.9.tgz
+    version: 0.0.9
   - apiVersion: v2
     appVersion: v0.1.2
     created: "2022-01-19T07:47:51.068566727Z"
@@ -1916,4 +1956,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-28T06:26:35.50439541Z"
+generated: "2022-01-31T00:04:50.485048456Z"
