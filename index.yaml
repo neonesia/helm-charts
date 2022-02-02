@@ -800,6 +800,16 @@ entries:
   http-channel:
   - apiVersion: v2
     appVersion: v0.1.10
+    created: "2022-02-02T05:49:18.241200405Z"
+    description: A Helm chart for Http Channel
+    digest: 4697d96bc6fde660d53c9859b4cdd02b6e43d8d7d6fcb8c6e59e1334efe67076
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.15/http-channel-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
+    appVersion: v0.1.10
     created: "2022-02-02T01:59:56.833262068Z"
     description: A Helm chart for Http Channel
     digest: 52cd8f66973ac0868b5ff498adb702ed659780de412ef999a5251bfe8e9d615d
@@ -2386,4 +2396,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-02T03:42:08.299846273Z"
+generated: "2022-02-02T05:49:18.241944336Z"
