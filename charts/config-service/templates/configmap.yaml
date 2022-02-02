@@ -9,6 +9,6 @@ data:
   HTTP_PORT: {{ .Values.service.port | quote }}
   KAFKA_BROKERS: 
   {{- range .Values.config.kafkaBrokers }}
-  - {{ . }}
+  - {{ . | quote }}
   {{- end }}
   KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChanSize | quote }}
