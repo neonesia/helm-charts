@@ -15,6 +15,9 @@ config:
 serviceAccount:
   name: ""
 
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
 resources:
   requests:
     cpu: 100m
