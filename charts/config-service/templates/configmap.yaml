@@ -7,7 +7,6 @@ metadata:
 data:
   DB_URL: {{ .Values.config.urlDB }}
   HTTP_PORT: {{ .Values.service.port | quote }}
-  {{- with .Values.config.kafkaBrokers }}
   KAFKA_BROKERS: -|
   {{- range .Values.config.kafkaBrokers }}
   - {{ . | quote }}
