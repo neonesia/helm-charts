@@ -6,9 +6,6 @@ metadata:
   creationTimestamp: 2021-09-16T00:00:00Z
 data:
   DB_URL: {{ .Values.config.urlDB }}
-  KAFKA_BROKERS: 
-  {{- range .Values.config.kafkaBrokers }}
-  - {{ . }}
-  {{- end }}
+  KAFKA_BROKERS: {{ .Values.config.kafkaBrokers | quote }}
   KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChanSize | quote }}
   
