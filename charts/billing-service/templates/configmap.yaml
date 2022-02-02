@@ -10,5 +10,5 @@ data:
   {{- range .Values.config.kafkaBrokers }}
   - {{ . }}
   {{- end }}
-  KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChhanSize | quote }}
+  KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChanSize | quote }}
   
