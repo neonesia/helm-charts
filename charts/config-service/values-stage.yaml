@@ -10,7 +10,7 @@ image:
 config:
   urlDB: "postgres://service01:SvcN2one1A01Stage@10.61.112.3:5432/cloudreload"
   kafkaBrokers:
-  - "redpanda:9093"
+    - "redpanda:9093"
   kafkaChanSize: "100"
 
 
