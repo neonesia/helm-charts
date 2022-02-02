@@ -3,6 +3,16 @@ entries:
   bank-collector:
   - apiVersion: v2
     appVersion: v0.0.6
+    created: "2022-02-02T01:59:56.213899731Z"
+    description: A Helm chart for Bank Collector
+    digest: 8c0db372b5a5c569e6a3f9e990560350c2a84f2760a5994b2e50321da9fb7a0e
+    name: bank-collector
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.8/bank-collector-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: v0.0.6
     created: "2022-01-20T08:14:20.176118151Z"
     description: A Helm chart for Bank Collector
     digest: cd5a5167a0584e341a10aa4ea88424664ee7c46b56f27b190657c5b42b5e2bf1
@@ -113,6 +123,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/bankticket-service-0.0.2/bankticket-service-0.0.2.tgz
     version: 0.0.2
   billing-service:
+  - apiVersion: v2
+    appVersion: v0.1.10
+    created: "2022-02-02T01:59:56.380682514Z"
+    description: A Helm chart for Billing Service
+    digest: 5bef96426578d53d02b5628d184119d3cdaa500f07ea6d2b20b44f15dfa6576d
+    name: billing-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.14/billing-service-0.1.14.tgz
+    version: 0.1.14
   - apiVersion: v2
     appVersion: v0.1.10
     created: "2022-01-31T00:48:12.129432656Z"
@@ -235,6 +255,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/chrome-neonesia-0.1.0/chrome-neonesia-0.1.0.tgz
     version: 0.1.0
   config-service:
+  - apiVersion: v2
+    appVersion: v0.1.12
+    created: "2022-02-02T01:59:56.532247472Z"
+    description: A Helm chart for Config Information Service
+    digest: cde472d867ba88a69dfd4a2de5b8f4cec723451b21e2ec737285177d2695428c
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.17/config-service-0.1.17.tgz
+    version: 0.1.17
   - apiVersion: v2
     appVersion: v0.1.12
     created: "2022-01-31T00:04:50.0179349Z"
@@ -449,6 +479,16 @@ entries:
   http-call:
   - apiVersion: v2
     appVersion: v0.1.18
+    created: "2022-02-02T01:59:56.673958647Z"
+    description: A Helm chart for External HTTP Call
+    digest: 5c1889b439f5b5dc7ae95bdcf80b48b956afb2c0c108eeaa2319c17275a9db14
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.22/http-call-0.1.22.tgz
+    version: 0.1.22
+  - apiVersion: v2
+    appVersion: v0.1.18
     created: "2022-01-31T00:04:50.179153401Z"
     description: A Helm chart for External HTTP Call
     digest: 0b4b5acbbfc51e3a1202e86e10050844bb2ed28e9c2a0db4105118fd37e2f46f
@@ -658,6 +698,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.0/http-call-0.1.0.tgz
     version: 0.1.0
   http-channel:
+  - apiVersion: v2
+    appVersion: v0.1.10
+    created: "2022-02-02T01:59:56.833262068Z"
+    description: A Helm chart for Http Channel
+    digest: 52cd8f66973ac0868b5ff498adb702ed659780de412ef999a5251bfe8e9d615d
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.14/http-channel-0.1.14.tgz
+    version: 0.1.14
   - apiVersion: v2
     appVersion: v0.1.10
     created: "2022-01-31T00:18:27.132179576Z"
@@ -1035,6 +1085,16 @@ entries:
   order-batch:
   - apiVersion: v2
     appVersion: v0.1.2
+    created: "2022-02-02T01:59:56.987953551Z"
+    description: A Helm chart for Order Batch Process
+    digest: 97297e2f3c63b141b740699cd6d7ade9409b345c03697a60fe59ec0678922766
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.1.3/order-batch-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: v0.1.2
     created: "2022-01-31T00:48:12.269378881Z"
     description: A Helm chart for Order Batch Process
     digest: 40b5d5cbc1faadc8ea523b41e8ab07408185557a6f009ba62d3014050488e3ff
@@ -1124,6 +1184,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.1/order-batch-0.0.1.tgz
     version: 0.0.1
   order-service:
+  - apiVersion: v2
+    appVersion: v0.1.7
+    created: "2022-02-02T01:59:57.139629509Z"
+    description: A Helm chart for Order Service
+    digest: 21a985fa49652e395a9ef31c261953a060797cfd1253a48031862b98d2b59384
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.13/order-service-0.1.13.tgz
+    version: 0.1.13
   - apiVersion: v2
     appVersion: v0.1.7
     created: "2022-01-31T00:48:12.876424739Z"
@@ -1245,6 +1315,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.0/order-service-0.1.0.tgz
     version: 0.1.0
   product-service:
+  - apiVersion: v2
+    appVersion: v0.1.8
+    created: "2022-02-02T01:59:57.294725896Z"
+    description: A Helm chart for Product Service
+    digest: 6844a7358bf2df9e08c852deb836b14486a26df46c8ba94c301d97f3c00d3e24
+    name: product-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.14/product-service-0.1.14.tgz
+    version: 0.1.14
   - apiVersion: v2
     appVersion: v0.1.8
     created: "2022-01-31T00:48:13.014070802Z"
@@ -1457,6 +1537,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/report-batch-0.0.2/report-batch-0.0.2.tgz
     version: 0.0.2
   reseller-service:
+  - apiVersion: v2
+    appVersion: v0.1.5
+    created: "2022-02-02T01:59:57.436838174Z"
+    description: A Helm chart for Reseller Service
+    digest: 4f6ee030550ec00115db5848b2c4e1568dc5ede5565a3019758580bc82368aa6
+    name: reseller-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/reseller-service-0.1.14/reseller-service-0.1.14.tgz
+    version: 0.1.14
   - apiVersion: v2
     appVersion: v0.1.5
     created: "2022-01-31T00:48:13.311409017Z"
@@ -1814,6 +1904,16 @@ entries:
   supplier-service:
   - apiVersion: v2
     appVersion: v0.1.3
+    created: "2022-02-02T01:59:57.591554157Z"
+    description: A Helm chart for Supplier Information Service
+    digest: dadeed6c77e191acbdabca1edfabffd03a55f5d2ff5be255f79d08c87e8c5538
+    name: supplier-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/supplier-service-0.0.12/supplier-service-0.0.12.tgz
+    version: 0.0.12
+  - apiVersion: v2
+    appVersion: v0.1.3
     created: "2022-01-31T00:48:13.462100828Z"
     description: A Helm chart for Supplier Information Service
     digest: 90ff2f39542a3a3b5fd288890927f178fb982753d15ac7a47085130e7ce78f53
@@ -2136,4 +2236,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-31T00:48:13.462746145Z"
+generated: "2022-02-02T01:59:57.59303347Z"
