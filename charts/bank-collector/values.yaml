@@ -6,12 +6,13 @@ image:
   repository: reg.dev.neonesia.net/crp/bank-collector
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.0.1"
+  tag: "v0.0.3"
 
 config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"  
   kafkaBrokers: "redpanda:9093"
   kafkaChanSize: "100"
+  testRun: "true"
 
 serviceAccount:
   name: ""

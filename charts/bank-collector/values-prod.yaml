@@ -5,12 +5,13 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/backend-k8s-287402/bank-collector
   pullPolicy: IfNotPresent
-  tag: "v0.0.1"
+  tag: "v0.0.3"
 
 config:
   urlDB: "postgres://service01:SvcN2one1A01@10.0.96.5:5432/bank"  
   kafkaBrokers: "redpanda0:9093;redpanda1:9093"
   kafkaChanSize: "100"
+  testRun: "true"
 
 serviceAccount:
   name: neonesia-ksa
