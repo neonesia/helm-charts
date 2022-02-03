@@ -3,6 +3,16 @@ entries:
   bank-collector:
   - apiVersion: v2
     appVersion: v0.0.6
+    created: "2022-02-03T08:02:08.589315799Z"
+    description: A Helm chart for Bank Collector
+    digest: d48c4fbd12cfdba876bbd9e77469c4e24f773e1ddec092dd0e37f21138f73e8c
+    name: bank-collector
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.10/bank-collector-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
+    appVersion: v0.0.6
     created: "2022-02-02T03:14:21.804265336Z"
     description: A Helm chart for Bank Collector
     digest: 480d5efbbfba671ae6552ca0acc7844c0a8d2996494bbdfb35811c5081360e4e
@@ -2396,4 +2406,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-02T05:49:18.241944336Z"
+generated: "2022-02-03T08:02:08.590328019Z"
