@@ -3,12 +3,12 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/cloudreload/bank-collector
+  repository: asia.gcr.io/backend-k8s-287402/bank-collector
   pullPolicy: IfNotPresent
   tag: "v0.0.1"
 
 config:
-  urlDB: "postgres://service01:SvcN2one1A01Stage@10.0.96.5:5432/bank"  
+  urlDB: "postgres://service01:SvcN2one1A01@10.0.96.5:5432/bank"  
   kafkaBrokers: "redpanda:9093"
   kafkaChanSize: "100"
 
