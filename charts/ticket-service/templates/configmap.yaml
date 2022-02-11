@@ -3,10 +3,13 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-  creationTimestamp: 2021-09-16T00:00:00Z
+  creationTimestamp: 2022-02-11T10:00:00Z
 data:
-  IRSDB_URL: {{ .Values.config.urlIRSDB }}
-  DB_URL: {{ .Values.config.urlDB }}
-  TIME_DIFF: {{ .Values.config.diffTime }}
-  LOG_LEVEL: {{ .Values.config.logLevel }}
-  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote }}    
+  IRSDB_URL: {{ .Values.config.urlIRSDB | quote }}
+  DB_URL: {{ .Values.config.urlDB | quote }}
+  TIME_DIFF: {{ .Values.config.diffTime | quote }}
+  LOG_LEVEL: {{ .Values.config.logLevel | quote }}
+  KAFKA_BROKERS: {{ .Values.config.kafkaBrokers | quote }}
+  KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChanSize | quote }}
+  RDS_URL: {{ .Values.config.urlRDS | quote }}
+  RDS_PASSWD: {{ .Values.config.passwdRDS | quote }}

@@ -5,15 +5,13 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/cloudreload/statistic-batch
   pullPolicy: IfNotPresent
-  tag: "v0.0.1"
+  tag: "v0.1.1"
 
 config:
   urlCRDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
   urlSTATDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5433/cloudreload"
 
-sqlproxy: 
-  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432,cloudreload:asia-southeast2:crp-stage00=tcp:5433"
-  
 serviceAccount:
   name: neonesia-ksa
 
+schedule: "0 20 * * *"  

@@ -8,15 +8,11 @@ image:
   tag: "latest"
 
 config:            
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  chanSizeNATS: "100"
-
-serviceAccount:
-  name: ""
-
-sqlproxy: 
-  instances: ""
+  kafkaBrokers: "redpanda:9093"
+  kafkaChanSize: "100"
+  urlRDS: "redis-ext:6379"
+  passwdRDS: "redis2022@neo"
 
 service:
   type: ClusterIP
@@ -24,6 +20,12 @@ service:
   targetPort: 8030
 
 containerPort: 8030
+
+serviceAccount:
+  name: ""
+
+podAnnotations:
+  sidecar.istio.io/inject: "false"
 
 resources:
   requests:

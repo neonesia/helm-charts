@@ -8,16 +8,28 @@ image:
   tag: "v0.0.2"
 
 config:
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  sbjNATS: "whatsapp.>"
   urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
   whatsappID: "6285717742220@s.whatsapp.net"
   whatsappVer: "0,4,2088"
   logLevel: "DEBUG"
-  chanSizeNATS: "100"
+  kafkaBrokers: "redpanda:9093"
+  kafkaChanSize: "100"
+  urlRDS: "redis:6379"
+  passwdRDS: "redis2024@CRPStage"
   
-sqlproxy: 
-  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
-
 serviceAccount:
   name: neonesia-ksa
+
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 128Mi
+  limits:
+    cpu: 100m
+    memory: 256Mi
+
+autoscaling:
+  enabled: false

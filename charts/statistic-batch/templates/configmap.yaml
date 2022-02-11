@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-  creationTimestamp: 2021-09-16T00:00:00Z
+  creationTimestamp: 2022-02-11T10:00:00Z
 data:
   DBCR_URL:  {{ .Values.config.urlCRDB }}
   DBSTAT_URL:  {{ .Values.config.urlSTATDB }}

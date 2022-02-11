@@ -9,22 +9,9 @@ image:
 
 config:            
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-
+  urlSTATDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
+  
 serviceAccount:
   name: ""
 
-sqlproxy: 
-  instances: ""
-
 schedule: "0 21 * * *"
-
-resources:
-  requests:
-    cpu: 50m
-    memory: 128Mi
-  limits:
-    cpu: 1000m
-    memory: 1Gi
-
-autoscaling:
-  enabled: false

@@ -8,35 +8,28 @@ image:
   tag: "v0.0.2"
 
 config:
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  sbjNATS: "whatsapp.>"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"
   whatsappID: "6285717742220@s.whatsapp.net"
   whatsappVer: "0,4,2088"
   logLevel: "DEBUG"
-  chanSizeNATS: "100"  
+  kafkaBrokers: "redpanda:9093"
+  kafkaChanSize: "100"
+  urlRDS: "redis-ext:6379"
+  passwdRDS: "redis2022@neo"
 
 serviceAccount:
   name: ""
 
-sqlproxy: 
-  instances: ""
+podAnnotations:
+  sidecar.istio.io/inject: "false"
 
-resources: {}
-  # We usually recommend not to specify default resources and to leave this as a conscious
-  # choice for the user. This also increases chances charts run on environments with little
-  # resources, such as Minikube. If you do want to specify resources, uncomment the following
-  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
-  # limits:
-  #   cpu: 100m
-  #   memory: 128Mi
-  # requests:
-  #   cpu: 100m
-  #   memory: 128Mi
+resources:
+  requests:
+    cpu: 50m
+    memory: 128Mi
+  limits:
+    cpu: 100m
+    memory: 256Mi
 
 autoscaling:
   enabled: false
-  minReplicas: 1
-  maxReplicas: 10
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80

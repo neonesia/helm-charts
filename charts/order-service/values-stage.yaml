@@ -14,11 +14,19 @@ config:
   kafkaBrokers: "redpanda:9093"
   kafkaChanSize: "100"
 
+serviceAccount:
+  name: neonesia-ksa
+
 podAnnotations:
   sidecar.istio.io/inject: "false"
 
-sqlproxy: 
-  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 300m
+    memory: 512Mi
 
-serviceAccount:
-  name: neonesia-ksa
+autoscaling:
+  enabled: false

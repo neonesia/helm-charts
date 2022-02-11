@@ -8,12 +8,28 @@ image:
   tag: "v0.8.2"
 
 config:
-  urlNATS: "nats://legacy:legacy2020@nats:4222"
   urlIRSDB: "daffina:ezykepoo2021@tcp(182.253.83.213:9211)/avr?parseTime=true"
   urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/bank"
   diffTime: "25190"
   logLevel: "DEBUG"
-  chanSizeNATS: "100"
+  kafkaBrokers: "redpanda:9093"
+  kafkaChanSize: "100"
+  urlRDS: "redis:6379"
+  passwdRDS: "CRPProd@redis2028"
   
 serviceAccount:
   name: neonesia-ksa
+
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 128Mi
+  limits:
+    cpu: 100m
+    memory: 256Mi
+
+autoscaling:
+  enabled: false

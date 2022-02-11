@@ -34,13 +34,3 @@ spec:
               name: {{ .Release.Name }}-configmap
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-        {{- if .Values.isGCP }}
-        - name: cloud-sql-proxy
-          image: gcr.io/cloudsql-docker/gce-proxy:latest
-          command:
-            - "/cloud_sql_proxy"
-            - "-ip_address_types=PRIVATE"
-            - "{{ .Values.sqlproxy.instances }}"
-          securityContext:
-            runAsNonRoot: true
-        {{- end }}

@@ -8,8 +8,8 @@ image:
   tag: "v0.0.1"
 
 config:
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  chanSizeNATS: "100"  
+  kafkaBrokers: "redpanda:9093"
+  kafkaChanSize: "100"
   urlIRSDB: ""
   urlOTMDB: ""
   jabberAccounts: 
@@ -24,9 +24,20 @@ config:
     - acct: "jabber-replicator:password"
     - acct: "jabber-replicator:password"
 
-sqlproxy: 
-  instances: "-instances=cloudreload:asia-southeast2:crp-stage00=tcp:5432"
-
 serviceAccount:
   name: neonesia-ksa
+
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+autoscaling:
+  enabled: false
 

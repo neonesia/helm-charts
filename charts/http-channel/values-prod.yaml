@@ -8,13 +8,10 @@ image:
   tag: "v0.2.9"
 
 config:
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
-  chanSizeNATS: "100"
   kafkaBrokers: "redpanda0:9093;redpanda1:9093"
   kafkaChanSize: "100"
- 
-podAnnotations:
-  sidecar.istio.io/inject: "false"
+  urlRDS: "redis:6379"
+  passwdRDS: "CRPProd@redis2028"
 
 service:
   type: ClusterIP
@@ -26,6 +23,9 @@ containerPort: 8060
 serviceAccount:
   name: neonesia-ksa
 
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
 resources:
   requests:
     cpu: 50m
@@ -33,3 +33,6 @@ resources:
   limits:
     cpu: 200m
     memory: 256Mi
+
+autoscaling:
+  enabled: false

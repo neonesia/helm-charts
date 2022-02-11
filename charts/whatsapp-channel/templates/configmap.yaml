@@ -3,12 +3,13 @@ apiVersion: v1
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-  creationTimestamp: 2021-09-16T00:00:00Z
+  creationTimestamp: 2022-02-11T10:00:00Z
 data:
-  NATS_URL: {{ .Values.config.urlNATS }}
-  NATS_SUBJECT: {{ .Values.config.sbjNATS }}
-  DB_URL: {{ .Values.config.urlDB }}
-  WHATSAPP_ID: {{ .Values.config.whatsappID }}
-  WHATSAPP_VER: {{ .Values.config.whatsappVer }}
-  LOG_LEVEL: {{ .Values.config.logLevel }}
-  NATS_CHANNEL_SIZE: {{ .Values.config.chanSizeNATS | quote }}
+  DB_URL: {{ .Values.config.urlDB | quote }}
+  WHATSAPP_ID: {{ .Values.config.whatsappID | quote }}
+  WHATSAPP_VER: {{ .Values.config.whatsappVer | quote }}
+  LOG_LEVEL: {{ .Values.config.logLevel | quote }}
+  KAFKA_BROKERS: {{ .Values.config.kafkaBrokers | quote }}
+  KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChanSize | quote }}
+  RDS_URL: {{ .Values.config.urlRDS | quote }}
+  RDS_PASSWD: {{ .Values.config.passwdRDS | quote }}

@@ -5,18 +5,31 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/cloudreload/isimple-manager
   pullPolicy: IfNotPresent
-  tag: "v0.0.1"
+  tag: "v0.1.1"
 
 config:
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://service01:SvcN2one1A01Prod@127.0.0.1:5432/cloudreload"
   groupNode: "KEPOO"
   queueSizeTask: "1000"
   queueSizeMobile: "2000"
-  chanSizeNATS: "100"
-
-sqlproxy: 
-  instances: "-instances=cloudreload:asia-southeast2:crp-prod00=tcp:5432"
+  kafkaBrokers: "redpanda:9093"
+  kafkaChanSize: "100"
+  urlRDS: "redis:6379"
+  passwdRDS: "CRPProd@redis2028"
 
 serviceAccount:
   name: neonesia-ksa
+
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+autoscaling:
+  enabled: false  

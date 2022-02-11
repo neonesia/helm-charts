@@ -5,21 +5,15 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/cloudreload/order-batch
   pullPolicy: IfNotPresent
-  tag: "v0.0.1"
+  tag: "v0.1.1"
 
 config:
-  urlNATS: "nats://crpDefault:nEoN3iaCRP@nats:4222"
   urlDB: "postgres://service01:SvcN2one1A01Prod@10.61.112.4:5432/cloudreload"
-  chanSizeNATS: "100"
-  kafkaBrokers: "redpanda0:9093;redpanda1:9093"
+  kafkaBrokers: "redpanda:9093"
   kafkaChanSize: "100"
+  urlRDS: "redis:6379"
+  passwdRDS: "CRPProd@redis2028"
     
-podAnnotations:
-  sidecar.istio.io/inject: "false"
-
-sqlproxy: 
-  instances: "-instances=cloudreload:asia-southeast2:crp-prod00=tcp:5432"
-
 service:
   type: ClusterIP
   port: 8020
@@ -33,6 +27,9 @@ containerPort: 8020
 serviceAccount:
   name: neonesia-ksa
 
+podAnnotations:
+  sidecar.istio.io/inject: "false"
+
 resources:
   requests:
     cpu: 10m
@@ -40,3 +37,6 @@ resources:
   limits:
     cpu: 100m
     memory: 128Mi
+
+autoscaling:
+  enabled: false
