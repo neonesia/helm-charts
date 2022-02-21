@@ -14,7 +14,6 @@ config:
   urlRDS: "redis-ext:6379"
   passwdRDS: "redis2022@neo"
 
-
 serviceAccount:
   name: ""
 
