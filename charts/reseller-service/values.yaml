@@ -11,7 +11,7 @@ config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   kafkaBrokers: "redpanda:9093"
   kafkaChanSize: "100"
-
+  passwdRDS: "redis2022@neo"
 
 serviceAccount:
   name: ""
