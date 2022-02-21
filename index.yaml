@@ -1456,6 +1456,16 @@ entries:
   order-service:
   - apiVersion: v2
     appVersion: v0.1.7
+    created: "2022-02-21T05:41:28.492367076Z"
+    description: A Helm chart for Order Service
+    digest: 8f9b0f83048ee7aa44cf7299585c7d62fadbad6275ab49491d6c6e83c39132d3
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.16/order-service-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
+    appVersion: v0.1.7
     created: "2022-02-11T03:02:48.639663345Z"
     description: A Helm chart for Order Service
     digest: 205c14ed426906be6ff1747cdec72e1c087d4fb50785e501a32fffdc99f32b3c
@@ -2666,4 +2676,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-21T03:10:24.458134513Z"
+generated: "2022-02-21T05:41:28.493180268Z"
