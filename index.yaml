@@ -890,6 +890,16 @@ entries:
   http-channel:
   - apiVersion: v2
     appVersion: v0.1.10
+    created: "2022-02-24T01:19:38.464856103Z"
+    description: A Helm chart for Http Channel
+    digest: 079be7aa67d9f47a0b9b6b4c0a5f1474a7586e1b76a79e9c59bd178d23ba1403
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.17/http-channel-0.1.17.tgz
+    version: 0.1.17
+  - apiVersion: v2
+    appVersion: v0.1.10
     created: "2022-02-11T03:02:47.72976627Z"
     description: A Helm chart for Http Channel
     digest: d2349933125a67dea0cfd99a0b0ccf71462d8bbda7dab223125cff3573eb03e5
@@ -1454,6 +1464,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.1/order-batch-0.0.1.tgz
     version: 0.0.1
   order-service:
+  - apiVersion: v2
+    appVersion: v0.1.7
+    created: "2022-02-24T01:19:38.619585683Z"
+    description: A Helm chart for Order Service
+    digest: bcdccd493a6dd2e4320d2ac707aa6feb664ac00aea21d84ce8bc0de21e591627
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.17/order-service-0.1.17.tgz
+    version: 0.1.17
   - apiVersion: v2
     appVersion: v0.1.7
     created: "2022-02-21T05:41:28.492367076Z"
@@ -2676,4 +2696,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-21T05:41:28.493180268Z"
+generated: "2022-02-24T01:19:38.62056379Z"
