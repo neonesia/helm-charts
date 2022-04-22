@@ -19,6 +19,13 @@ config:
   urlRDS: "redis-ext:6379"
   passwdRDS: "redis2022@neo"
 
+service:
+  type: ClusterIP
+  port: 8590
+  targetPort: 8590
+
+containerPort: 8590
+
 serviceAccount:
   name: ""
 

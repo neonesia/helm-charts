@@ -17,6 +17,13 @@ config:
   urlRDS: "redis:6379"
   passwdRDS: "CRPProd@redis2028"
   
+service:
+  type: ClusterIP
+  port: 8590
+  targetPort: 8590
+
+containerPort: 8590
+
 serviceAccount:
   name: neonesia-ksa
 
