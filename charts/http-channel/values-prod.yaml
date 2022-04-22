@@ -8,7 +8,7 @@ image:
   tag: "v0.2.9"
 
 config:
-  kafkaBrokers: "redpanda0:9093;redpanda1:9093"
+  kafkaBrokers: "redpanda:9093"
   kafkaChanSize: "100"
   urlRDS: "redis:6379"
   passwdRDS: "CRPProd@redis2028"
