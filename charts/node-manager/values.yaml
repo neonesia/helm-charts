@@ -9,15 +9,10 @@ image:
 
 config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  groupNode: "KEPOO"
-  maxUSSDTask: "1200"     # := NodeCount * USSDMobile
-  maxUSSDMobile:  "1200"  # := NodeCount * USSDMobile
-  maxSendSMS: "200"       # := NodeCount * SMSMobile
-  maxSendSMSMobile: "200" # := NodeCount * SMSMobile
-  kafkaBrokers: "redpanda:9093"
-  kafkaChanSize: "100"
   urlRDS: "redis-ext:6379"
   passwdRDS: "redis2022@neo"
+  kafkaBrokers: "redpanda:9093"
+  kafkaChanSize: "100"
 
 service:
   type: ClusterIP
