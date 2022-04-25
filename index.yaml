@@ -1060,6 +1060,16 @@ entries:
     version: 0.1.0
   isimple-manager:
   - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-04-25T03:18:31.030786074Z"
+    description: A Helm chart for ISimple Manager
+    digest: a6dd2e76c4ddc807c9883d429d8da763fad75b13d0f19f18ee5fbcd0bd62f5da
+    name: isimple-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.7/isimple-manager-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
     appVersion: v0.0.4
     created: "2022-02-11T03:02:47.873438587Z"
     description: A Helm chart for ISimple Manager
@@ -2706,4 +2716,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-04-22T06:42:45.163130249Z"
+generated: "2022-04-25T03:18:31.03180129Z"
