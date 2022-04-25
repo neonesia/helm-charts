@@ -1264,6 +1264,16 @@ entries:
   node-manager:
   - apiVersion: v2
     appVersion: v0.0.8
+    created: "2022-04-25T08:07:51.069172618Z"
+    description: A Helm chart for Modem Node Manager
+    digest: e17aefe2f4366f2a84eb7aa94f10847a75953da5685bc5802b53524524d4dc55
+    name: node-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.13/node-manager-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: v0.0.8
     created: "2022-04-25T08:03:15.202215184Z"
     description: A Helm chart for Modem Node Manager
     digest: 27e96c7347d0f01fc579135212b9960972d821a1208c8095191f0ba248c5133b
@@ -2726,4 +2736,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-04-25T08:03:15.203143897Z"
+generated: "2022-04-25T08:07:51.07003391Z"
