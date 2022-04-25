@@ -5,7 +5,7 @@ metadata:
   namespace: {{ .Release.Namespace }}
   creationTimestamp: 2022-02-11T10:00:00Z
 data:
-  DB_RUL: {{ .Values.config.urlDB | quote }}
+  DB_URL: {{ .Values.config.urlDB | quote }}
   RDS_URL: {{ .Values.config.urlRDS | quote }}
   RDS_PASSWD: {{ .Values.config.passwdRDS | quote }}
   KAFKA_BROKERS: {{ .Values.config.kafkaBrokers | quote }}
