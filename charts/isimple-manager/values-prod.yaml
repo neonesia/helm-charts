@@ -9,13 +9,14 @@ image:
 
 config:
   urlDB: "postgres://service01:SvcN2one1A01Prod@127.0.0.1:5432/cloudreload"
-  groupNode: "KEPOO"
-  queueSizeTask: "1000"
-  queueSizeMobile: "2000"
   kafkaBrokers: "redpanda:9093"
   kafkaChanSize: "100"
   urlRDS: "redis:6379"
   passwdRDS: "CRPProd@redis2028"
+  urlIS: "simpel.indosatooredoo.com"
+  authKeyIS: "APPYM8205D04"
+  encKeyIS: "OoredooMM!123$"
+  appUserAgent: "IMImobile/DealerApp/1.4.9/1/DealerApp"
 
 serviceAccount:
   name: neonesia-ksa
