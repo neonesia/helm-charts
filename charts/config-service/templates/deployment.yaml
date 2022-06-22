@@ -5,7 +5,6 @@ metadata:
   labels:
     {{- include "config-service.labels" . | nindent 4 }}
 spec:
-  hostname: crp-config-service
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
