@@ -337,6 +337,16 @@ entries:
   config-service:
   - apiVersion: v2
     appVersion: v0.1.13
+    created: "2022-06-22T01:19:01.419219844Z"
+    description: A Helm chart for Config Information Service
+    digest: a95801ce66a99910bcce8c788606c096ea26fe7920e334d09910e29ecbd9aa20
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.26/config-service-0.1.26.tgz
+    version: 0.1.26
+  - apiVersion: v2
+    appVersion: v0.1.13
     created: "2022-06-21T23:51:54.627337727Z"
     description: A Helm chart for Config Information Service
     digest: cb738941951caaa0087b4a04bbcf9cbe86db3faf97c5dd349438797ea3713a4d
@@ -2756,4 +2766,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-21T23:51:54.629170646Z"
+generated: "2022-06-22T01:19:01.420797261Z"
