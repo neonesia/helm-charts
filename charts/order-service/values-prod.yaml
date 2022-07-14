@@ -5,14 +5,11 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/cloudreload/order-service
   pullPolicy: IfNotPresent
-  tag: "v0.2.14"
+  tag: "v0.3.0"
 
 config:
   urlDB: "postgres://service01:SvcN2one1A01Prod@10.61.112.4:5432/cloudreload"
-  kafkaBrokers: "redpanda:9093"
-  kafkaChanSize: "100"
-  urlRDS: "redis:6379"
-  passwdRDS: "CRPProd@redis2028"
+  urlNSQ: "nsq:4150"
 
 serviceAccount:
   name: neonesia-ksa
@@ -27,6 +24,3 @@ resources:
   limits:
     cpu: 300m
     memory: 512Mi
-
-autoscaling:
-  enabled: false
