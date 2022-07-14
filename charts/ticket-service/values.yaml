@@ -11,11 +11,8 @@ config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"
   diffTime: "10"
   logLevel: "DEBUG"
-  kafkaBrokers: "redpanda:9093"
-  kafkaChanSize: "100"
-  urlRDS: "redis-ext:6379"
-  passwdRDS: "redis2022@neo"
-
+  urlNSQ: "nsq:4150"
+  
 serviceAccount:
   name: ""
 
@@ -29,6 +26,3 @@ resources:
   limits:
     cpu: 100m
     memory: 256Mi
-
-autoscaling:
-  enabled: false

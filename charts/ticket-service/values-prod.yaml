@@ -12,11 +12,8 @@ config:
   urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/bank"
   diffTime: "25190"
   logLevel: "DEBUG"
-  kafkaBrokers: "redpanda:9093"
-  kafkaChanSize: "100"
-  urlRDS: "redis:6379"
-  passwdRDS: "CRPProd@redis2028"
-  
+  urlNSQ: "nsq:4150"
+
 serviceAccount:
   name: neonesia-ksa
 
@@ -30,6 +27,3 @@ resources:
   limits:
     cpu: 100m
     memory: 256Mi
-
-autoscaling:
-  enabled: false

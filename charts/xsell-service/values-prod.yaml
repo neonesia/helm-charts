@@ -10,10 +10,7 @@ image:
 config:
   urlDB: "postgres://service01:SvcN2one1A01Prod@127.0.0.1:5432/cloudreload"
   urlDBXSell: ""
-  kafkaBrokers: "redpanda:9093"
-  kafkaChanSize: "100"
-  urlRDS: "redis:6379"
-  passwdRDS: "CRPProd@redis2028"
+  urlNSQ: "nsq:4150"
 
 serviceAccount:
   name: neonesia-ksa
@@ -28,6 +25,3 @@ resources:
   limits:
     cpu: 200m
     memory: 512Mi
-
-autoscaling:
-  enabled: false

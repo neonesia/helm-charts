@@ -11,10 +11,7 @@ config:
   urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
   botName: "TG-BANK-KEPOO"
   botVer: "1"
-  kafkaBrokers: "redpanda:9093"
-  kafkaChanSize: "100"
-  urlRDS: "redis:6379"
-  passwdRDS: "redis2024@CRPStage"
+  urlNSQ: "nsq:4150"
 
 serviceAccount:
   name: neonesia-ksa
@@ -29,6 +26,3 @@ resources:
   limits:
     cpu: 100m
     memory: 256Mi
-
-autoscaling:
-  enabled: false
