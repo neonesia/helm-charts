@@ -2644,6 +2644,16 @@ entries:
     version: 0.0.2
   telegram-channel:
   - apiVersion: v2
+    appVersion: v0.0.5
+    created: "2022-07-14T02:33:28.762188629Z"
+    description: A Helm chart for Telegram Messenger Channel
+    digest: f2c7b152ebef43d72841ec3ad5f432c6baf5b9cb33589d652a2105488c496487
+    name: telegram-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/telegram-channel-0.1.10/telegram-channel-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2022-02-11T03:02:49.650035711Z"
     description: A Helm chart for Telegram Messenger Channel
@@ -2735,6 +2745,16 @@ entries:
     version: 0.1.0
   ticket-service:
   - apiVersion: v2
+    appVersion: v0.8.10
+    created: "2022-07-14T02:33:28.91410651Z"
+    description: A Helm chart for Bank Ticket Service
+    digest: b73ba600a8790c43cabfa8ec6579d0376cac7ee58ac9622ebee608612675d8d7
+    name: ticket-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/ticket-service-0.1.6/ticket-service-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
     appVersion: v0.8.2
     created: "2022-02-11T03:02:49.80019375Z"
     description: A Helm chart for Bank Ticket Service
@@ -2795,6 +2815,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/ticket-service-0.1.0/ticket-service-0.1.0.tgz
     version: 0.1.0
   whatsapp-channel:
+  - apiVersion: v2
+    appVersion: v0.0.5
+    created: "2022-07-14T02:33:29.074676004Z"
+    description: A Helm chart for Whatsapp Messenger Channel
+    digest: 16ec9651bbeb1984f2bcf774e60ba701436eef0a20e3c3fbaf5e2e1d091d2ac9
+    name: whatsapp-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/whatsapp-channel-0.1.8/whatsapp-channel-0.1.8.tgz
+    version: 0.1.8
   - apiVersion: v2
     appVersion: v0.0.2
     created: "2022-02-11T03:02:50.125080462Z"
@@ -2867,6 +2897,16 @@ entries:
     version: 0.1.0
   xsell-service:
   - apiVersion: v2
+    appVersion: v0.0.10
+    created: "2022-07-14T02:33:29.233361273Z"
+    description: A Helm chart for Croselling Service
+    digest: 98160a67161ecefbe23446ccba0394c1d2a75a4af7b9ef0fb07d2295a991e5be
+    name: xsell-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.7/xsell-service-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
     appVersion: v0.0.5
     created: "2022-02-11T03:02:50.27077204Z"
     description: A Helm chart for Croselling Service
@@ -2916,4 +2956,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-14T02:26:34.650546032Z"
+generated: "2022-07-14T02:33:29.234404087Z"
