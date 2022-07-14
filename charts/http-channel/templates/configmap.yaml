@@ -3,11 +3,7 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-  creationTimestamp: 2022-02-11T10:00:00Z
+	creationTimestamp: 2022-07-14T08:00:00Z
 data:
-  # port number 추가 service.port와 일치해야 함.
   SERVICE_PORT: {{ .Values.service.port | quote }}
-  KAFKA_BROKERS: {{ .Values.config.kafkaBrokers | quote }}
-  KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChanSize | quote }}
-  RDS_URL: {{ .Values.config.urlRDS | quote }}
-  RDS_PASSWD: {{ .Values.config.passwdRDS | quote }}
+	NSQ_URL: {{ .Values.config.urlNSQ | quote }}
