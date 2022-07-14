@@ -607,6 +607,16 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-07-14T02:19:45.676985617Z"
+    description: A Helm chart for Config Information Service
+    digest: 1d7097e22d59fd4fa2e692bc8557393cb8b52c4b8952aa71296a0d561ab58ea3
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.0.6/config-service-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-02-11T03:02:47.11435983Z"
     description: A Helm chart for Config Information Service
     digest: d28679a1923e803a12600060511f999cc0f9590472a4d49f8d50088fe5e7d359
@@ -1211,6 +1221,16 @@ entries:
     version: 0.0.1
   jabber-channel:
   - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-07-14T02:19:45.799070549Z"
+    description: A Helm chart for Jabber Channel
+    digest: 268335f89aa18316bfe0c6287d462debb84b5df5d6bf872c59fcf5e072341a5b
+    name: jabber-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.11/jabber-channel-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
     appVersion: v0.0.8
     created: "2022-02-11T03:02:48.013070148Z"
     description: A Helm chart for Jabber Channel
@@ -1353,6 +1373,16 @@ entries:
     version: 0.0.2
   node-manager:
   - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-07-14T02:19:45.923611999Z"
+    description: A Helm chart for Modem Node Manager
+    digest: c3b1cbb5d79f878a1dfe45636f5849a3aa643dbb722cf3bf227f1d7904f2b6da
+    name: node-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.14/node-manager-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
     appVersion: v0.0.8
     created: "2022-04-25T08:07:51.069172618Z"
     description: A Helm chart for Modem Node Manager
@@ -1473,6 +1503,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.0/node-manager-0.1.0.tgz
     version: 0.1.0
   order-batch:
+  - apiVersion: v2
+    appVersion: v0.1.8
+    created: "2022-07-14T02:19:46.040283094Z"
+    description: A Helm chart for Order Batch Process
+    digest: 979540b0d6693a567f17312d160b611cfea513ba5a3636213cb7a3244d6b1a3b
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.1.6/order-batch-0.1.6.tgz
+    version: 0.1.6
   - apiVersion: v2
     appVersion: v0.1.2
     created: "2022-02-11T03:02:48.495579022Z"
@@ -2836,4 +2876,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-14T01:17:20.680167307Z"
+generated: "2022-07-14T02:19:46.041350401Z"
