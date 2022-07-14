@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   bank-collector:
   - apiVersion: v2
+    appVersion: v0.1.3
+    created: "2022-07-14T01:08:04.811588612Z"
+    description: A Helm chart for Bank Collector
+    digest: 0754becf1ccc2ac2838bb1bc8debf690a57fe5aa0ee5c60c6da2cc4c2b7da74b
+    name: bank-collector
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.13/bank-collector-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
     appVersion: v0.0.3
     created: "2022-02-11T03:02:46.661208568Z"
     description: A Helm chart for Bank Collector
@@ -123,6 +133,16 @@ entries:
     version: 0.1.0
   bankticket-service:
   - apiVersion: v2
+    appVersion: v0.0.6
+    created: "2022-07-14T01:08:05.000870876Z"
+    description: A Helm chart for BankTicket Service
+    digest: 5b03a7f5a52fd31ba85233b52916b39c223c4d91193c55988ef92fd19e9dbefb
+    name: bankticket-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bankticket-service-0.0.8/bankticket-service-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
     appVersion: v0.0.5
     created: "2022-02-11T03:02:46.816824852Z"
     description: A Helm chart for BankTicket Service
@@ -173,6 +193,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/bankticket-service-0.0.2/bankticket-service-0.0.2.tgz
     version: 0.0.2
   billing-service:
+  - apiVersion: v2
+    appVersion: v0.1.12
+    created: "2022-07-14T01:08:05.16750638Z"
+    description: A Helm chart for Billing Service
+    digest: 390fd64fb7d4d292998901537a8702973361776a45ab00f9019d6d1cac09410d
+    name: billing-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.18/billing-service-0.1.18.tgz
+    version: 0.1.18
   - apiVersion: v2
     appVersion: v0.1.10
     created: "2022-02-11T03:02:46.963199008Z"
@@ -2766,4 +2796,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-22T01:19:01.420797261Z"
+generated: "2022-07-14T01:08:05.168455278Z"
