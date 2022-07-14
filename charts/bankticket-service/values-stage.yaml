@@ -10,10 +10,7 @@ image:
 config:
   urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
   urlPOST: "http://bankticket-service/upload/json"
-  kafkaBrokers: "redpanda:9093"
-  kafkaChanSize: "100"
-  urlRDS: "redis:6379"
-  passwdRDS: "redis2024@CRPStage"
+  urlNSQ: "nsq:4150"
 
 service:
   type: ClusterIP
@@ -35,6 +32,3 @@ resources:
   limits:
     cpu: 200m
     memory: 256Mi
-
-autoscaling:
-  enabled: false

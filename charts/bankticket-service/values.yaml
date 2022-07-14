@@ -11,10 +11,7 @@ image:
 config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   urlPOST: "http://bankticket-service/upload/json"
-  kafkaBrokers: "redpanda:9093"
-  kafkaChanSize: "100"
-  urlRDS: "redis-ext:6379"
-  passwdRDS: "redis2022@neo"
+  urlNSQ: "nsq:4150"
 
 serviceAccount:
   name: ""
@@ -36,6 +33,3 @@ resources:
   limits:
     cpu: 200m
     memory: 256Mi
-
-autoscaling:
-  enabled: false

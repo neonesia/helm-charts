@@ -3,11 +3,8 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-  creationTimestamp: 2022-02-11T10:00:00Z
+  creationTimestamp: 2022-07-14T08:00:00Z
 data:
   DB_URL:  {{ .Values.config.urlDB | quote }}
-  KAFKA_BROKERS: {{ .Values.config.kafkaBrokers | quote }}  
-  KAFKA_CHANNEL_SIZE: {{ .Values.config.kafkaChanSize | quote }}
-  RDS_URL: {{ .Values.config.urlRDS | quote }}
-  RDS_PASSWD: {{ .Values.config.passwdRDS | quote }}
+  NSQ_URL:  {{ .Values.config.urlNSQ | quote }}
   TEST_RUN: {{ .Values.config.testRun | quote }}
