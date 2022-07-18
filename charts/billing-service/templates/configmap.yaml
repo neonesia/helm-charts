@@ -6,4 +6,4 @@ metadata:
   creationTimestamp: 2022-07-14T08:00:00Z
 data:
   DB_URL: {{ .Values.config.urlDB | quote }}
-  NSQ_URL:  {{ .Values.config.urlNSQ | quote }}
+  NSQ_URL: {{ .Values.config.urlNSQ | quote }}

@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-	creationTimestamp: 2022-07-14T08:00:00Z
+  creationTimestamp: 2022-07-14T08:00:00Z
 data:
-  DB_URL:  {{ .Values.config.urlDB | quote }}
+  DB_URL: {{ .Values.config.urlDB | quote }}
   HTTP_PORT: {{ .Values.service.port | quote }}
   NSQ_URL: {{ .Values.config.urlNSQ | quote }}
