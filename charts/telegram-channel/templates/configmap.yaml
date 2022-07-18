@@ -8,4 +8,4 @@ data:
   DB_URL: {{ .Values.config.urlDB | quote }}
   BOT_NAME: {{ .Values.config.botName | quote }}
   BOT_VER: {{ .Values.config.botVer | quote }}
-	NSQ_URL: {{ .Values.config.urlNSQ | quote }}
+  NSQ_URL: {{ .Values.config.urlNSQ | quote }}

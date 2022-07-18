@@ -7,4 +7,4 @@ metadata:
 data:
   DB_URL: {{ .Values.config.urlDB | quote }}
   XSELLDB_URL: {{ .Values.config.urlDBXSell | quote }}
-	NSQ_URL: {{ .Values.config.urlNSQ | quote }}
+  NSQ_URL: {{ .Values.config.urlNSQ | quote }}
