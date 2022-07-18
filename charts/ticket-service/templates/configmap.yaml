@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-	creationTimestamp: 2022-07-14T08:00:00Z
+  creationTimestamp: 2022-07-14T08:00:00Z
 data:
   IRSDB_URL: {{ .Values.config.urlIRSDB | quote }}
   DB_URL: {{ .Values.config.urlDB | quote }}
