@@ -5,5 +5,5 @@ metadata:
   namespace: {{ .Release.Namespace }}
 	creationTimestamp: 2022-07-14T08:00:00Z
 data:
-  DB_URL:  {{ .Values.config.urlDB | quote }}
-	NSQ_URL: {{ .Values.config.urlNSQ | quote }}
+  DB_URL: {{ .Values.config.urlDB | quote }}
+  NSQ_URL: {{ .Values.config.urlNSQ | quote }}

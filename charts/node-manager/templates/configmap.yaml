@@ -7,4 +7,4 @@ metadata:
 data:
   DB_URL: {{ .Values.config.urlDB | quote }}
   SERVICE_PORT: {{ .Values.service.port | quote }}
-	NSQ_URL: {{ .Values.config.urlNSQ | quote }}  
+  NSQ_URL: {{ .Values.config.urlNSQ | quote }}  
