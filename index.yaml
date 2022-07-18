@@ -657,6 +657,16 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2022-07-18T04:15:41.91046978Z"
+    description: A Helm chart for Config Information Service
+    digest: d6e15fe03f30b16d794c8dbd00f0a89be0190fb019ea4d1048704fd0e3c4fcc0
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.0.8/config-service-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2022-07-18T04:06:51.729794962Z"
     description: A Helm chart for Config Information Service
     digest: 18de3669ad1471dd643a9cc53e63af86af0e15273ac3517bf434f4e31a3e8ceb
@@ -1514,6 +1524,16 @@ entries:
   node-manager:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-07-18T04:15:42.069851693Z"
+    description: A Helm chart for Modem Node Manager
+    digest: 80f8f905bfdba194a41ba185f1fc0c0cad0cfbc64cb9ee4ca892a824666eb9f2
+    name: node-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.16/node-manager-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2022-07-18T04:06:51.865956593Z"
     description: A Helm chart for Modem Node Manager
     digest: 12614d7a715c561b02225d2f94b8ecc5c1508408b0cad0aacb39b99442b7644d
@@ -1655,6 +1675,16 @@ entries:
   order-batch:
   - apiVersion: v2
     appVersion: v0.1.8
+    created: "2022-07-18T04:15:42.228815539Z"
+    description: A Helm chart for Order Batch Process
+    digest: f9cde018da84f50bc51b39ebffeb87538e08c13d75910cc05d6d38ec868be14e
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.1.8/order-batch-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: v0.1.8
     created: "2022-07-18T04:06:52.015941298Z"
     description: A Helm chart for Order Batch Process
     digest: 96e80a2335be3eea050ca05a1f3d8852fc8a03c48145de87e2360a8d0c5d16a1
@@ -1794,6 +1824,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.1/order-batch-0.0.1.tgz
     version: 0.0.1
   order-service:
+  - apiVersion: v2
+    appVersion: v0.3.0
+    created: "2022-07-18T04:15:42.365454737Z"
+    description: A Helm chart for Order Service
+    digest: 8d9f8a8f43f305154610e3849bf80692af122665dfaf5735c65bd512488c5497
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.20/order-service-0.1.20.tgz
+    version: 0.1.20
   - apiVersion: v2
     appVersion: v0.3.0
     created: "2022-07-18T04:06:52.155387247Z"
@@ -1985,6 +2025,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.0/order-service-0.1.0.tgz
     version: 0.1.0
   product-service:
+  - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2022-07-18T04:15:42.658672161Z"
+    description: A Helm chart for Product Service
+    digest: 42307c623b3cab233891bd9e64b243c194d524b67ecf898a019341467fec80d2
+    name: product-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.19/product-service-0.1.19.tgz
+    version: 0.1.19
   - apiVersion: v2
     appVersion: v0.2.0
     created: "2022-07-18T04:06:52.307177362Z"
@@ -3196,4 +3246,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-18T04:13:40.198995127Z"
+generated: "2022-07-18T04:15:42.671561886Z"
