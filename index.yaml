@@ -2309,6 +2309,16 @@ entries:
   reseller-service:
   - apiVersion: v2
     appVersion: v0.1.10
+    created: "2022-07-18T04:17:42.023019868Z"
+    description: A Helm chart for Reseller Service
+    digest: bf35a06f0122eaa57ce59e1cc5a831eef6813594ea81ddb4ae8e9d3da3e0585a
+    name: reseller-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/reseller-service-0.1.22/reseller-service-0.1.22.tgz
+    version: 0.1.22
+  - apiVersion: v2
+    appVersion: v0.1.10
     created: "2022-07-18T04:06:52.45212314Z"
     description: A Helm chart for Reseller Service
     digest: db0a92fe1fcc9c91adf01b7d7d43c7537a6e859e9ab3e5d6176973e72a9c30bc
@@ -2754,6 +2764,16 @@ entries:
   supplier-service:
   - apiVersion: v2
     appVersion: v0.2.0
+    created: "2022-07-18T04:17:42.191270299Z"
+    description: A Helm chart for Supplier Information Service
+    digest: f51d0ba2497d427a8fa5e1472f1c6c97d33df2913ed9ccabd271642c0241b984
+    name: supplier-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/supplier-service-0.1.2/supplier-service-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v0.2.0
     created: "2022-07-18T04:06:52.602017145Z"
     description: A Helm chart for Supplier Information Service
     digest: 69cd34e2af92ded6efaec79a06b911aa394b3e953cf86ef2ffc8b008a1bcc81a
@@ -2895,6 +2915,16 @@ entries:
   telegram-channel:
   - apiVersion: v2
     appVersion: v0.0.5
+    created: "2022-07-18T04:17:42.351163843Z"
+    description: A Helm chart for Telegram Messenger Channel
+    digest: 404f16aa84935a8df02390ed23e4b98abea5164f7f1d048d72c870cd37884e05
+    name: telegram-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/telegram-channel-0.1.12/telegram-channel-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v2
+    appVersion: v0.0.5
     created: "2022-07-18T04:06:52.734687258Z"
     description: A Helm chart for Telegram Messenger Channel
     digest: 2b3f4a493cab2f2c322abb04ce15039b06992cba6ab9df6d0104e92f23839819
@@ -3006,6 +3036,16 @@ entries:
   ticket-service:
   - apiVersion: v2
     appVersion: v0.8.10
+    created: "2022-07-18T04:17:42.49697013Z"
+    description: A Helm chart for Bank Ticket Service
+    digest: 25f2185965c8e70e7caa50960cddd1ab446ad9ed57f1b19c9efb6fbbae91e2e4
+    name: ticket-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/ticket-service-0.1.8/ticket-service-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: v0.8.10
     created: "2022-07-18T04:06:52.891857602Z"
     description: A Helm chart for Bank Ticket Service
     digest: aa9d1b7cb5b2b4e621f5ed132970c224930b1155a85321b6ae7e6f0b5a7fdf50
@@ -3085,6 +3125,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/ticket-service-0.1.0/ticket-service-0.1.0.tgz
     version: 0.1.0
   whatsapp-channel:
+  - apiVersion: v2
+    appVersion: v0.0.5
+    created: "2022-07-18T04:17:42.641776133Z"
+    description: A Helm chart for Whatsapp Messenger Channel
+    digest: e5d4f17f1f7f6c449b25d2a907d8a4a5057262a9db90e0b7523b8f7f1d5ae184
+    name: whatsapp-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/whatsapp-channel-0.1.10/whatsapp-channel-0.1.10.tgz
+    version: 0.1.10
   - apiVersion: v2
     appVersion: v0.0.5
     created: "2022-07-18T04:06:53.039295193Z"
@@ -3178,6 +3228,16 @@ entries:
   xsell-service:
   - apiVersion: v2
     appVersion: v0.0.10
+    created: "2022-07-18T04:17:42.79293526Z"
+    description: A Helm chart for Croselling Service
+    digest: cb8baf00b11003248ada1053b122514ed6574691b4c8e35ab2998ec1e8edde47
+    name: xsell-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.9/xsell-service-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
+    appVersion: v0.0.10
     created: "2022-07-18T04:06:53.180345451Z"
     description: A Helm chart for Croselling Service
     digest: 8c87edb24e188c3575f6a69f848685d28579ce343d08a0d92271c0cc10536c8d
@@ -3246,4 +3306,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-18T04:15:42.671561886Z"
+generated: "2022-07-18T04:17:42.795624481Z"
