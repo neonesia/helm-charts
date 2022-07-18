@@ -799,6 +799,16 @@ entries:
   http-call:
   - apiVersion: v2
     appVersion: v0.3.0
+    created: "2022-07-18T04:25:06.882340137Z"
+    description: A Helm chart for External HTTP Call
+    digest: d69e10dd7fc2e9f5f962325c24f23abaa37313d92511c30111fb4e198e075949
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.28/http-call-0.1.28.tgz
+    version: 0.1.28
+  - apiVersion: v2
+    appVersion: v0.3.0
     created: "2022-07-18T04:13:39.847614092Z"
     description: A Helm chart for External HTTP Call
     digest: f4876ddb588e0e7f61142eb9b51a8595c8da369b2c9caf1d49ee4af7ec267d2a
@@ -1070,6 +1080,16 @@ entries:
   http-channel:
   - apiVersion: v2
     appVersion: v0.3.0
+    created: "2022-07-18T04:25:07.070249596Z"
+    description: A Helm chart for Http Channel
+    digest: debdead23ae262dae65aca1408dc27a29a71de19242ecb8d34294fccedd4d255
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.21/http-channel-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
+    appVersion: v0.3.0
     created: "2022-07-18T04:13:39.960379502Z"
     description: A Helm chart for Http Channel
     digest: c2b390233ae0164bb0e6948f940c7aca7b5edab962ff89f3347083908a96d4a6
@@ -1271,6 +1291,16 @@ entries:
   isimple-manager:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-07-18T04:25:07.239246638Z"
+    description: A Helm chart for ISimple Manager
+    digest: 646c58badb3e2874af046aecbe9469d62070b0f1a3a91e126a0a9c9f769574f6
+    name: isimple-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.11/isimple-manager-0.0.11.tgz
+    version: 0.0.11
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2022-07-18T04:13:40.073556715Z"
     description: A Helm chart for ISimple Manager
     digest: 9087e536a3c4610d32a74fcfca7398fd1558f0be6639e0bdf4c979fee8113ebe
@@ -1360,6 +1390,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.1/isimple-manager-0.0.1.tgz
     version: 0.0.1
   jabber-channel:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-07-18T04:25:07.405685179Z"
+    description: A Helm chart for Jabber Channel
+    digest: 11a041604fd7a1a2749519cedf21b2d6f9bd29837e7bc2a24c632eb9e22eff24
+    name: jabber-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.14/jabber-channel-0.1.14.tgz
+    version: 0.1.14
   - apiVersion: v2
     appVersion: v0.1.0
     created: "2022-07-18T04:13:40.197346314Z"
@@ -3316,4 +3356,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-18T04:23:35.787727631Z"
+generated: "2022-07-18T04:25:07.410387783Z"
