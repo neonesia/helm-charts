@@ -1712,6 +1712,17 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/jabber-replicator-0.0.2/jabber-replicator-0.0.2.tgz
     version: 0.0.2
+  member-service:
+  - apiVersion: v2
+    appVersion: v0.3.0
+    created: "2022-07-29T04:16:44.430097665Z"
+    description: A Helm chart for Member Service
+    digest: 6a0c4a0cd5593214bb896c26b867221fa05feadaaeaa91bebafae3c9e4630acf
+    name: member-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/member-service-0.2.0/member-service-0.2.0.tgz
+    version: 0.2.0
   node-manager:
   - apiVersion: v2
     appVersion: v0.1.1
@@ -1885,6 +1896,16 @@ entries:
     version: 0.1.0
   order-batch:
   - apiVersion: v2
+    appVersion: v0.1.9
+    created: "2022-07-29T04:16:44.554358476Z"
+    description: A Helm chart for Order Batch Process
+    digest: 4aa739e2fc5179f112696124ea5f56adc92a7c7c5aad281b53ade5c1a9e1eba2
+    name: order-batch
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.1.10/order-batch-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
     appVersion: v0.1.8
     created: "2022-07-18T04:29:22.807981504Z"
     description: A Helm chart for Order Batch Process
@@ -2045,6 +2066,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-batch-0.0.1/order-batch-0.0.1.tgz
     version: 0.0.1
   order-service:
+  - apiVersion: v2
+    appVersion: v0.3.1
+    created: "2022-07-29T04:16:44.690556662Z"
+    description: A Helm chart for Order Service
+    digest: 118c265273410c1a84bf40423677be3692f5e2281c39e8374e1708d4d2561ea8
+    name: order-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.22/order-service-0.1.22.tgz
+    version: 0.1.22
   - apiVersion: v2
     appVersion: v0.3.0
     created: "2022-07-18T04:32:57.263391701Z"
@@ -2256,6 +2287,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/order-service-0.1.0/order-service-0.1.0.tgz
     version: 0.1.0
   product-service:
+  - apiVersion: v2
+    appVersion: v0.2.1
+    created: "2022-07-29T04:16:44.826073937Z"
+    description: A Helm chart for Product Service
+    digest: 4fa1e49bb2a556b0a29d88af102b2386f3b5763ef5cafbced6882b5432855d39
+    name: product-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/product-service-0.1.21/product-service-0.1.21.tgz
+    version: 0.1.21
   - apiVersion: v2
     appVersion: v0.2.0
     created: "2022-07-18T04:32:57.381566092Z"
@@ -2548,6 +2589,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/report-batch-0.0.2/report-batch-0.0.2.tgz
     version: 0.0.2
   reseller-service:
+  - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2022-07-29T04:16:44.940450904Z"
+    description: A Helm chart for Reseller Service
+    digest: 6e881d79485be336cf5d572868525b530cd6af9b734216be2e2b60e1e5a97355
+    name: reseller-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/reseller-service-0.1.24/reseller-service-0.1.24.tgz
+    version: 0.1.24
   - apiVersion: v2
     appVersion: v0.1.10
     created: "2022-07-18T04:32:57.494041959Z"
@@ -3013,6 +3064,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/statistic-batch-0.0.3/statistic-batch-0.0.3.tgz
     version: 0.0.3
   supplier-service:
+  - apiVersion: v2
+    appVersion: v0.2.1
+    created: "2022-07-29T04:16:45.057863816Z"
+    description: A Helm chart for Supplier Information Service
+    digest: d36d4ef5a9d46b31796a3b319ff652b5f4c65e03a8a104314c6c45e8472f9059
+    name: supplier-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/supplier-service-0.1.4/supplier-service-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: v0.2.0
     created: "2022-07-18T04:32:57.600463501Z"
@@ -3607,4 +3668,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-29T04:05:16.527098762Z"
+generated: "2022-07-29T04:16:45.059665842Z"
