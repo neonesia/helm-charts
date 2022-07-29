@@ -3,17 +3,17 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/cloudreload/supplier-service
+  repository: asia.gcr.io/cloudreload/member-service
   pullPolicy: IfNotPresent
-  tag: "v0.1.0"
+  tag: "v0.2.0"
 
 config:
-  urlDB: "postgres://service01:SvcN2one1A01Prod@10.61.112.4:5432/cloudreload"
+  urlDB: "postgres://service01:SvcN2one1A01Stage@10.61.112.3:5432/cloudreload"
   urlNSQ: "nsq:4150"
   # Message Stream
   urlMS: "nsq:4150"
   # dev, stage, prod
-  logLevel: "prod"
+  logLevel: "stage"
 
 serviceAccount:
   name: neonesia-ksa
@@ -21,10 +21,10 @@ serviceAccount:
 podAnnotations:
   sidecar.istio.io/inject: "false"
 
-resources:
+resources: 
   requests:
-    cpu: 100m
+    cpu: 50m
     memory: 128Mi
   limits:
-    cpu: 300m
-    memory: 512Mi
+    cpu: 200m
+    memory: 256Mi
