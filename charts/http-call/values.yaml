@@ -3,13 +3,17 @@ isGCP: false
 replicaCount: 1
 
 image:
-  repository: reg.dev.neonesia.net/crp/
+  repository: reg.dev.neonesia.net/crp/http-call
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v0.3.0"
 
 config:
   urlNSQ: "nsq:4150"
+  # Message Stream
+  urlMS: "nsq:4150"
+  # dev, stage, prod
+  logLevel: "dev"
 
 serviceAccount:
   name: ""

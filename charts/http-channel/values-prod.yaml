@@ -9,6 +9,10 @@ image:
 
 config:
   urlNSQ: "nsq:4150"
+  # Message Stream
+  urlMS: "nsq:4150"
+  # dev, stage, prod
+  logLevel: "prod"
 
 service:
   type: ClusterIP
