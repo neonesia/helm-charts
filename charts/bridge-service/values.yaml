@@ -3,7 +3,7 @@ isGCP: false
 replicaCount: 1
 
 image:
-  repository: reg.dev.neonesia.net/crp/config-service
+  repository: reg.dev.neonesia.net/crp/bridge-service
   pullPolicy: IfNotPresent
   tag: "latest"
 

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "bridge-service.fullname" . }}
+  labels:
+    {{- include "bridge-service.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+  - name: http
+    protocol: TCP
+    port: {{ .Values.service.port }}
+    targetPort: {{ .Values.service.targetPort }}
+  selector:
+    {{- include "bridge-service.selectorLabels" . | nindent 4 }}

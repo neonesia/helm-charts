@@ -11,6 +11,10 @@ image:
 config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"  
   urlNSQ: "nsq:4150"
+  # Message Stream
+  urlMS: "nsq:4150"
+  # dev, stage, prod
+  logLevel: "dev"
   testRun: "true"
 
 serviceAccount:

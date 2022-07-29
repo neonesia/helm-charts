@@ -1,22 +1,19 @@
-isGCP: false
+isGCP: true
 
 replicaCount: 1
 
 image:
-  repository: reg.dev.neonesia.net/crp/config-service
+  repository: asia.gcr.io/cloudreload/bridge-service
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: "v0.1.0"
 
-config:            
-  urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
+config:
+  urlDB: "postgres://service01:SvcN2one1A01Prod@10.61.112.4:5432/cloudreload"
   urlNSQ: "nsq:4150"
   # Message Stream
   urlMS: "nsq:4150"
   # dev, stage, prod
-  logLevel: "dev"
-
-serviceAccount:
-  name: ""
+  logLevel: "prod"
 
 service:
   type: ClusterIP
@@ -24,6 +21,9 @@ service:
   targetPort: 8010
 
 containerPort: 8010
+
+serviceAccount:
+  name: neonesia-ksa
 
 podAnnotations:
   sidecar.istio.io/inject: "false"
