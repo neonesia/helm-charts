@@ -747,6 +747,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.0/config-service-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-07-29T04:05:15.173267288Z"
+    description: A Helm chart for Config Information Service
+    digest: 88f5e2d364e43645998b183d97dc119492476fb3b527dd0f4de8dc76972155b2
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.0.10/config-service-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2022-07-18T04:29:22.555726128Z"
     description: A Helm chart for Config Information Service
@@ -888,6 +898,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/h3i-channel-0.1.0/h3i-channel-0.1.0.tgz
     version: 0.1.0
   http-call:
+  - apiVersion: v2
+    appVersion: v0.3.1
+    created: "2022-07-29T04:05:15.420153142Z"
+    description: A Helm chart for External HTTP Call
+    digest: dbdc4cc7a8ebe422887ade720e35a9c49102c5672e146c9e7481c6958611e393
+    name: http-call
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-call-0.1.29/http-call-0.1.29.tgz
+    version: 0.1.29
   - apiVersion: v2
     appVersion: v0.3.0
     created: "2022-07-18T04:25:06.882340137Z"
@@ -1170,6 +1190,16 @@ entries:
     version: 0.1.0
   http-channel:
   - apiVersion: v2
+    appVersion: v0.3.1
+    created: "2022-07-29T04:05:15.769881902Z"
+    description: A Helm chart for Http Channel
+    digest: b87f814a59424fe637d67c75af1caa8e02aca778c70d8d4e9a9f1f14d611fb81
+    name: http-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/http-channel-0.1.22/http-channel-0.1.22.tgz
+    version: 0.1.22
+  - apiVersion: v2
     appVersion: v0.3.0
     created: "2022-07-18T04:25:07.070249596Z"
     description: A Helm chart for Http Channel
@@ -1381,6 +1411,16 @@ entries:
     version: 0.1.0
   isimple-manager:
   - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2022-07-29T04:05:16.017590361Z"
+    description: A Helm chart for ISimple Manager
+    digest: 1bf134093c76d272de30ca2bdc967a9f6f050632dba9d44d71f1ef94d3afd7f9
+    name: isimple-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.12/isimple-manager-0.0.12.tgz
+    version: 0.0.12
+  - apiVersion: v2
     appVersion: v0.1.0
     created: "2022-07-18T04:25:07.239246638Z"
     description: A Helm chart for ISimple Manager
@@ -1481,6 +1521,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/isimple-manager-0.0.1/isimple-manager-0.0.1.tgz
     version: 0.0.1
   jabber-channel:
+  - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2022-07-29T04:05:16.265000219Z"
+    description: A Helm chart for Jabber Channel
+    digest: 04c797786df637ff76a61263efaf9da59c595fff2b4c38d35c4ff418ed9d784e
+    name: jabber-channel
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/jabber-channel-0.1.15/jabber-channel-0.1.15.tgz
+    version: 0.1.15
   - apiVersion: v2
     appVersion: v0.1.0
     created: "2022-07-18T04:25:07.405685179Z"
@@ -1663,6 +1713,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/jabber-replicator-0.0.2/jabber-replicator-0.0.2.tgz
     version: 0.0.2
   node-manager:
+  - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2022-07-29T04:05:16.525174951Z"
+    description: A Helm chart for Modem Node Manager
+    digest: 6b2db01f8ffbccf78bb1593814d920a92af7247fff51909ac1be320a959678f1
+    name: node-manager
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/node-manager-0.1.18/node-manager-0.1.18.tgz
+    version: 0.1.18
   - apiVersion: v2
     appVersion: v0.1.0
     created: "2022-07-18T04:29:22.683266678Z"
@@ -3547,4 +3607,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-29T03:50:12.618819446Z"
+generated: "2022-07-29T04:05:16.527098762Z"
