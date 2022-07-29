@@ -8,5 +8,6 @@ data:
   IRSDB_URL: {{ .Values.config.urlIRSDB | quote }}
   DB_URL: {{ .Values.config.urlDB | quote }}
   TIME_DIFF: {{ .Values.config.diffTime | quote }}
-  LOG_LEVEL: {{ .Values.config.logLevel | quote }}
   NSQ_URL: {{ .Values.config.urlNSQ | quote }}
+  MS_URL: {{ .Values.config.urlMS | quote }}
+  LOG_LEVEL: {{ .Values.config.logLevel | quote }}

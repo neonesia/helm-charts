@@ -2,5 +2,5 @@ apiVersion: v2
 name: ticket-service
 description: A Helm chart for Bank Ticket Service
 type: application
-version: 0.1.9
-appVersion: "v0.8.10"
+version: 0.1.10
+appVersion: "v0.8.12"

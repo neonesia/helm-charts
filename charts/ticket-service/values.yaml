@@ -10,9 +10,11 @@ config:
   urlIRSDB: "neodev:n3ones!aDEV@tcp(mysql-ext)/avr?parseTime=true" # "irs:m4nd4l4@tcp(172.16.9.18:3307)/avr?parseTime=true"
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/bank?sslmode=disable"
   diffTime: "10"
-  logLevel: "DEBUG"
   urlNSQ: "nsq:4150"
-  
+  # Message Stream
+  urlMS: "nsq:4150"
+  logLevel: "DEBUG"
+
 serviceAccount:
   name: ""
 

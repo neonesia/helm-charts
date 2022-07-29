@@ -11,6 +11,10 @@ config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   urlDBXSell: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
   urlNSQ: "nsq:4150"
+  # Message Stream
+  urlMS: "nsq:4150"
+  # dev, stage, prod
+  logLevel: "dev"
 
 serviceAccount:
   name: ""

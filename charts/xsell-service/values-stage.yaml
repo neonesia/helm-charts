@@ -11,6 +11,10 @@ config:
   urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
   urlDBXSell: ""
   urlNSQ: "nsq:4150"
+  # Message Stream
+  urlMS: "nsq:4150"
+  # dev, stage, prod
+  logLevel: "stage"
 
 serviceAccount:
   name: neonesia-ksa

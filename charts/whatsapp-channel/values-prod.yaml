@@ -10,9 +10,12 @@ image:
 config:
   urlDB: "postgres://service01:SvcN2one1A01Prod@127.0.0.1:5432/cloudreload"
   whatsappID: "6285717742220@s.whatsapp.net"
-  whatsappVer: "0,4,2088"
-  logLevel: "DEBUG"
+  whatsappKey: "0,4,2088"
   urlNSQ: "nsq:4150"
+  # Message Stream
+  urlMS: "nsq:4150"
+  # dev, stage, prod
+  logLevel: "prod"
 
 serviceAccount:
   name: neonesia-ksa

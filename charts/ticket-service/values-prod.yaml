@@ -11,8 +11,10 @@ config:
   urlIRSDB: "daffina:ezykepoo2021@tcp(182.253.83.213:9211)/avr?parseTime=true"
   urlDB: "postgresql://service01:SvcN2one1A01@127.0.0.1:5432/bank"
   diffTime: "25190"
-  logLevel: "DEBUG"
   urlNSQ: "nsq:4150"
+  # Message Stream
+  urlMS: "nsq:4150"
+  logLevel: "DEBUG"
 
 serviceAccount:
   name: neonesia-ksa

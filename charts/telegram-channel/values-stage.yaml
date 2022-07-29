@@ -12,6 +12,10 @@ config:
   botName: "TG-BANK-KEPOO"
   botVer: "1"
   urlNSQ: "nsq:4150"
+  # Message Stream
+  urlMS: "nsq:4150"
+  # dev, stage, prod
+  logLevel: "stage"
 
 serviceAccount:
   name: neonesia-ksa
