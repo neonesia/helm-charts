@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   bank-collector:
   - apiVersion: v2
+    appVersion: v0.1.19
+    created: "2022-07-29T03:50:12.089920055Z"
+    description: A Helm chart for Bank Collector
+    digest: 5b3a7483513bdca0c06ad1bbb6b6dd988aeab48e449c2f7598c902353cbc0ca8
+    name: bank-collector
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bank-collector-0.1.16/bank-collector-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
     appVersion: v0.1.3
     created: "2022-07-18T04:29:22.176440307Z"
     description: A Helm chart for Bank Collector
@@ -154,6 +164,16 @@ entries:
   bankticket-service:
   - apiVersion: v2
     appVersion: v0.0.6
+    created: "2022-07-29T03:50:12.219642473Z"
+    description: A Helm chart for BankTicket Service
+    digest: e77f4d2c281d7e071a0fadb5911fe78bcf5a9584d6408c5a4d310d082c7bdcdd
+    name: bankticket-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bankticket-service-0.0.11/bankticket-service-0.0.11.tgz
+    version: 0.0.11
+  - apiVersion: v2
+    appVersion: v0.0.6
     created: "2022-07-18T04:29:22.300309326Z"
     description: A Helm chart for BankTicket Service
     digest: 76545fd8850087e6305ff7cb9884f0ebb8bd603289d7b1f868a222b21ee7a58a
@@ -233,6 +253,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/bankticket-service-0.0.2/bankticket-service-0.0.2.tgz
     version: 0.0.2
   billing-service:
+  - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2022-07-29T03:50:12.364231466Z"
+    description: A Helm chart for Billing Service
+    digest: 85d66c815749ece98a85e02d24de085a4418b6bdb9f56ac4e548b1f57a8d5aee
+    name: billing-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.21/billing-service-0.1.21.tgz
+    version: 0.1.21
   - apiVersion: v2
     appVersion: v0.1.12
     created: "2022-07-18T04:29:22.435942842Z"
@@ -403,6 +433,17 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/billing-service-0.1.0/billing-service-0.1.0.tgz
     version: 0.1.0
+  bridge-service:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-07-29T03:50:12.501938878Z"
+    description: A Helm chart for Bridge Service
+    digest: e62a543714b96a3c52554c544d25aed597f27f47284bd9fb4643c3f974df2a0c
+    name: bridge-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bridge-service-0.0.1/bridge-service-0.0.1.tgz
+    version: 0.0.1
   chrome-neonesia:
   - apiVersion: v2
     appVersion: v0.1.10
@@ -425,6 +466,16 @@ entries:
     - https://github.com/neonesia/helm-charts/releases/download/chrome-neonesia-0.1.0/chrome-neonesia-0.1.0.tgz
     version: 0.1.0
   config-service:
+  - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2022-07-29T03:50:12.617253628Z"
+    description: A Helm chart for Config Information Service
+    digest: 2d2a46b5a9c47e35de0be4ec35aee7e956b591b08c2257febe89b31caf3b2b13
+    name: config-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/config-service-0.1.31/config-service-0.1.31.tgz
+    version: 0.1.31
   - apiVersion: v2
     appVersion: v0.1.14
     created: "2022-07-18T04:23:35.786321134Z"
@@ -3496,4 +3547,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-18T04:32:58.037994819Z"
+generated: "2022-07-29T03:50:12.618819446Z"
