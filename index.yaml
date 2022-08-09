@@ -436,6 +436,16 @@ entries:
   bridge-service:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-08-09T01:32:18.774233959Z"
+    description: A Helm chart for Bridge Service
+    digest: 8a096dd7d95101b3baa26d60816549cb1a23cdd526543e47ccba05436b07ee13
+    name: bridge-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/bridge-service-0.0.2/bridge-service-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2022-07-29T03:50:12.501938878Z"
     description: A Helm chart for Bridge Service
     digest: e62a543714b96a3c52554c544d25aed597f27f47284bd9fb4643c3f974df2a0c
@@ -3708,4 +3718,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-29T04:23:15.795304865Z"
+generated: "2022-08-09T01:32:18.775536062Z"
