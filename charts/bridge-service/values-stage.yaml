@@ -15,12 +15,22 @@ config:
   # dev, stage, prod
   logLevel: "stage"
 
+  urlKC: "keycloak.id.cloudreload.com"
+  realmKC: "cloudreload"
+  adminNameKC: "systemdjob"
+  adminPWKC: "NnSysJob1A01"
+  roleIDKC: "e8d91b95-f859-4e44-bc42-717a0bfc75af"
+  
+  urlHAProxy: "10.184.0.18:5555"
+  adminIDHAProxy: "haadmin"
+  adminPWHAProxy: "Adm1n2024StageU"
+
 service:
   type: ClusterIP
-  port: 8010
-  targetPort: 8010
+  port: 8099
+  targetPort: 8099
 
-containerPort: 8010
+containerPort: 8099
 
 serviceAccount:
   name: neonesia-ksa

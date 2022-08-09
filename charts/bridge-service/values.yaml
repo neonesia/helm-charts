@@ -15,15 +15,25 @@ config:
   # dev, stage, prod
   logLevel: "dev"
 
+  urlKC: "keycloak.dev.neonesia.net"
+  realmKC: "cloudreload"
+  adminNameKC: "systemdjob"
+  adminPWKC: "NnSysJob1A01"
+  roleIDKC: "39af2fa0-8e70-4766-83bd-93f6d9982e00"
+
+  urlHAProxy: "172.16.200.199:5555"
+  adminIDHAProxy: "haadmin"
+  adminPWHAProxy: "Adm1n2024U"
+
 serviceAccount:
   name: ""
 
 service:
   type: ClusterIP
-  port: 8010
-  targetPort: 8010
+  port: 8099
+  targetPort: 8099
 
-containerPort: 8010
+containerPort: 8099
 
 podAnnotations:
   sidecar.istio.io/inject: "false"
