@@ -2,5 +2,5 @@ apiVersion: v2
 name: bridge-service
 description: A Helm chart for Bridge Service
 type: application
-version: 0.0.2
+version: 0.0.3
 appVersion: "v0.1.0"

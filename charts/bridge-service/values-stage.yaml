@@ -15,7 +15,7 @@ config:
   # dev, stage, prod
   logLevel: "stage"
 
-  urlKC: "keycloak.id.cloudreload.com"
+  urlKC: "keycloak-http"
   realmKC: "cloudreload"
   adminNameKC: "systemdjob"
   adminPWKC: "NnSysJob1A01"

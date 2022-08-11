@@ -15,7 +15,7 @@ config:
   # dev, stage, prod
   logLevel: "dev"
 
-  urlKC: "keycloak.dev.neonesia.net"
+  urlKC: "keycloak-http"
   realmKC: "cloudreload"
   adminNameKC: "systemdjob"
   adminPWKC: "NnSysJob1A01"
