@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/cloudreload/member-service
   pullPolicy: IfNotPresent
-  tag: "v0.2.0"
+  tag: "v0.1.0"
 
 config:
   urlDB: "postgres://service01:SvcN2one1A01Prod@10.61.112.4:5432/cloudreload"

@@ -3,12 +3,11 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/cloudreload/member-service
+  repository: asia.gcr.io/cloudreload/pg-call
   pullPolicy: IfNotPresent
-  tag: "v0.1.0"
+  tag: "v0.0.1"
 
 config:
-  urlDB: "postgres://service01:SvcN2one1A01Stage@10.61.112.3:5432/cloudreload"
   urlNSQ: "nsq:4150"
   # Message Stream
   urlMS: "nsq:4150"
@@ -21,7 +20,7 @@ serviceAccount:
 podAnnotations:
   sidecar.istio.io/inject: "false"
 
-resources: 
+resources:
   requests:
     cpu: 50m
     memory: 128Mi

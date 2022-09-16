@@ -1,0 +1,6 @@
+apiVersion: v2
+name: report-service
+description: A Helm chart for Report Service, Channel
+type: application
+version: 0.0.1
+appVersion: "v0.0.1"
