@@ -1,0 +1,6 @@
+apiVersion: v2
+name: isimple-call
+description: A Helm chart for ISimple Call
+type: application
+version: 0.0.1
+appVersion: "v0.1.0"

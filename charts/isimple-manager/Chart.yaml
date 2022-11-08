@@ -1,6 +1,0 @@
-apiVersion: v2
-name: isimple-manager
-description: A Helm chart for ISimple Manager
-type: application
-version: 0.0.12
-appVersion: "v0.1.1"

@@ -3,13 +3,11 @@ isGCP: true
 replicaCount: 1
 
 image:
-  repository: asia.gcr.io/cloudreload/isimple-manager
+  repository: asia.gcr.io/cloudreload/isimple-call
   pullPolicy: IfNotPresent
-  tag: "v0.1.1"
+  tag: "v0.1.0"
 
 config:
-  urlDB: "postgres://service01:SvcN2one1A01Stage@127.0.0.1:5432/cloudreload"
-  urlNSQ: "nsq:4150"
   # Message Stream
   urlMS: "nsq:4150"
   # dev, stage, prod

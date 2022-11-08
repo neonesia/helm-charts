@@ -1,26 +1,24 @@
-isGCP: false
+isGCP: true
 
 replicaCount: 1
 
 image:
-  repository: nginxreg.dev.neonesia.net/crp/isimple-manager
+  repository: asia.gcr.io/cloudreload/isimple-call
   pullPolicy: IfNotPresent
-  tag: "v0.1.1"
+  tag: "v0.1.0"
 
 config:
-  urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
-  urlNSQ: "nsq:4150"
   # Message Stream
   urlMS: "nsq:4150"
   # dev, stage, prod
-  logLevel: "dev"
+  logLevel: "prod"
   urlIS: "simpel.indosatooredoo.com"
   authKeyIS: "APPYM8205D04"
   encKeyIS: "OoredooMM!123$"
   appUserAgent: "IMImobile/DealerApp/1.4.9/1/DealerApp"
 
 serviceAccount:
-  name: ""
+  name: neonesia-ksa
 
 podAnnotations:
   sidecar.istio.io/inject: "false"

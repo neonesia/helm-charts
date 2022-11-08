@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "isimple-manager.fullname" . }}
+  name: {{ include "isimple-call.fullname" . }}
   labels:
-    {{- include "isimple-manager.labels" . | nindent 4 }}
+    {{- include "isimple-call.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "isimple-manager.selectorLabels" . | nindent 6 }}
+      {{- include "isimple-call.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
@@ -16,7 +16,7 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
-        {{- include "isimple-manager.selectorLabels" . | nindent 8 }}
+        {{- include "isimple-call.selectorLabels" . | nindent 8 }}
     spec:
       {{- if .Values.isGCP }}
       serviceAccountName: {{ .Values.serviceAccount.name }}
