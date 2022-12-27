@@ -2319,6 +2319,16 @@ entries:
     version: 0.1.0
   product-service:
   - apiVersion: v2
+    appVersion: v0.3.0
+    created: "2022-12-27T02:24:23.50744395Z"
+    description: A Helm chart for Product Service
+    digest: 41ae4b968553409489c6d9fa20b289fb58b8dda7cdca67488c6231c83c0eb947
+    name: product-service
+    type: application
+    urls:
+    - https://github.com/neonesia/helm-charts/releases/download/product-service-0.2.0/product-service-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: v0.2.1
     created: "2022-07-29T04:16:44.826073937Z"
     description: A Helm chart for Product Service
@@ -3739,4 +3749,4 @@ entries:
     urls:
     - https://github.com/neonesia/helm-charts/releases/download/xsell-service-0.0.1/xsell-service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-08T00:42:48.403106765Z"
+generated: "2022-12-27T02:24:23.510691681Z"
