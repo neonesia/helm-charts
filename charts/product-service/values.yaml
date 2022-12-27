@@ -6,7 +6,7 @@ image:
   repository: reg.dev.neonesia.net/crp/product-service
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.1.8"
+  tag: "v0.3.0"
 
 config:
   urlDB: "postgres://neodev:n3ones!aDEV@postgres-ext:5432/cloudreload?sslmode=disable"
